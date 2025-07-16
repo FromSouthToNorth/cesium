@@ -10,6 +10,8 @@ try {
   Cesium.Ion.defaultAccessToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJiNGNkZmExNi1iNGFjLTRmMWQtYTk0YS1kZDA0YThjODg0YWEiLCJpZCI6MTIzMzI5LCJpYXQiOjE3NTI2NTYwMDV9.AGrRQMfnLy7_rqCkCqt0ESx3NX3ulhfOZLv-sDZB-vA'
   const viewer = new Viewer('app', {
     infoBox: false, // 禁用 InfoBox
+    timeline: false,
+    animation: false,
   });
   viewer.camera.flyTo({
     destination: Cartesian3.fromDegrees(104.063981, 30.659599, 600),
