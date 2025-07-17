@@ -4,7 +4,7 @@ import {
   Model as CesiumModel,
   Math as CesiumMath, Viewer
 } from 'cesium';
-import 'cesium/Source/Widgets/widgets.css'
+import 'cesium/Build/Widgets/widgets.css'
 import './style/reset.css'
 import './style/index.css'
 import { truncatelongLat } from './utils/turf'
