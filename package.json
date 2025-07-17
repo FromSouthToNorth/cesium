@@ -9,10 +9,12 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^7.0.4"
+    "node": "^20.19.4",
+    "vite": "^7.0.4",
+    "vite-plugin-cesium": "^1.2.23"
   },
   "dependencies": {
-    "cesium": "^1.131.0",
-    "vite-plugin-cesium": "^1.2.23"
+    "@turf/turf": "^7.2.0",
+    "cesium": "^1.131.0"
   }
 }
