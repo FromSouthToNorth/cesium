@@ -29,15 +29,14 @@ export function initializeCesium(refEl) {
     baseLayerPicker: false,
   })
   const viewer = toRaw(unref(viewerRef))
-  setUrlTemplateImageryProvider(viewer)
+  // setUrlTemplateImageryProvider(viewer)
   new CesiumNavigation(viewer)
   const scene = viewer.scene;
   const globe = scene.globe;
   globe.clippingPolygons = new ClippingPolygonCollection();
   globe.translucency.enabled = true
-  // const terrain = Terrain.fromWorldTerrain();
-  // scene.setTerrain(terrain);
-
+  const terrain = Terrain.fromWorldTerrain();
+  scene.setTerrain(terrain);
   cesiumStore.setViewer(viewerRef)
   return viewerRef;
 }

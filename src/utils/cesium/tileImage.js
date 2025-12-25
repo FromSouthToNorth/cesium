@@ -25,7 +25,7 @@ function createTiandituImageryProvider(layer, style = 'default', customOptions =
 // 创建地形服务URL数组
 function createTerrainUrls() {
   return subdomains.map(subdomain =>
-    tdtUrl.replace('{s}', subdomain) + 'mapservice/swdx?T=elv_c&tk=' + token
+    `${tdtUrl.replace('{s}', subdomain)}mapservice/swdx?T=elv_c&tk=${token}`
   );
 }
 
