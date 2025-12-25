@@ -1,9 +1,20 @@
 import { ref, toRaw, unref } from 'vue';
 
-import { Viewer, Ion, Terrain, ClippingPolygonCollection, Cesium3DTileset } from 'cesium'
+import {
+  Viewer,
+  Ion,
+  Terrain,
+  ClippingPolygonCollection,
+  Cesium3DTileset,
+  UrlTemplateImageryProvider,
+  WebMercatorTilingScheme,
+  ImageryLayer,
+  Credit
+} from 'cesium'
 import CesiumNavigation from 'cesium-navigation-es6';
 
 import { useCesiumStore } from '@/store/modules/cesiumStore';
+import { setUrlTemplateImageryProvider } from './tileImage';
 
 Ion.defaultAccessToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJiNGNkZmExNi1iNGFjLTRmMWQtYTk0YS1kZDA0YThjODg0YWEiLCJpZCI6MTIzMzI5LCJpYXQiOjE3NTI2NTYwMDV9.AGrRQMfnLy7_rqCkCqt0ESx3NX3ulhfOZLv-sDZB-vA';
 
@@ -18,6 +29,7 @@ export function initializeCesium(refEl) {
     baseLayerPicker: false,
   })
   const viewer = toRaw(unref(viewerRef))
+  setUrlTemplateImageryProvider(viewer)
   new CesiumNavigation(viewer)
   const scene = viewer.scene;
   const globe = scene.globe;
