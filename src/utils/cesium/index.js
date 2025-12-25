@@ -35,8 +35,9 @@ export function initializeCesium(refEl) {
   const globe = scene.globe;
   globe.clippingPolygons = new ClippingPolygonCollection();
   globe.translucency.enabled = true
-  const terrain = Terrain.fromWorldTerrain();
-  scene.setTerrain(terrain);
+  // const terrain = Terrain.fromWorldTerrain();
+  // scene.setTerrain(terrain);
+
   cesiumStore.setViewer(viewerRef)
   return viewerRef;
 }
