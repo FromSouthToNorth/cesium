@@ -1,4 +1,4 @@
-import { ref, toRaw, unref } from 'vue';
+import { ref, toRaw, unref, computed } from 'vue';
 
 import {
   Viewer,
@@ -9,17 +9,27 @@ import {
   UrlTemplateImageryProvider,
   WebMercatorTilingScheme,
   ImageryLayer,
-  Credit
+  Rectangle,
+  Credit,
+  Camera,
+  defined,
+  Cartographic,
+  Math as CesiumMath,
+  ScreenSpaceEventType
 } from 'cesium'
 import CesiumNavigation from 'cesium-navigation-es6';
 
 import { useCesiumStore } from '@/store/modules/cesiumStore';
-import { setUrlTemplateImageryProvider } from './tileImage';
+import { setUrlTemplateImageryProvider, flyToCine } from './tileImage';
 
 Ion.defaultAccessToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJiNGNkZmExNi1iNGFjLTRmMWQtYTk0YS1kZDA0YThjODg0YWEiLCJpZCI6MTIzMzI5LCJpYXQiOjE3NTI2NTYwMDV9.AGrRQMfnLy7_rqCkCqt0ESx3NX3ulhfOZLv-sDZB-vA';
 
 const viewerRef = ref(null);
+const activeEntityRef = ref(null);
 const cesiumStore = useCesiumStore();
+
+export const getActiveEntity = computed(() => unref(activeEntityRef));
+
 export function initializeCesium(refEl) {
   viewerRef.value = new Viewer(refEl, {
     // infoBox: false,
@@ -38,7 +48,33 @@ export function initializeCesium(refEl) {
   const terrain = Terrain.fromWorldTerrain();
   scene.setTerrain(terrain);
   cesiumStore.setViewer(viewerRef)
-  return viewerRef;
+  const destination = Rectangle.fromDegrees(73, 18, 135, 53);
+  Camera.DEFAULT_VIEW_RECTANGLE = destination;
+  flyToCine(viewer, destination)
+  onLeftClick(viewer);
+  return viewer;
+}
+
+function onLeftClick(viewer) {
+  console.log('viewer: ', viewer);
+  const scene = viewer.scene;
+  const globe = scene.globe;
+  viewer.screenSpaceEventHandler.setInputAction((event) => {
+    const { position } = event;
+    const pickedObject = scene.pick(position);
+    if (defined(pickedObject)) {
+      console.log('Picked object: ', pickedObject);
+      activeEntityRef.value = { ...pickedObject, type: 'object' };
+    } else {
+      const cartesian = viewer.camera.pickEllipsoid(position, globe.ellipsoid);
+      if (cartesian) {
+        const cartographic = Cartographic.fromCartesian(cartesian);
+        const longitude = CesiumMath.toDegrees(cartographic.longitude);
+        const latitude = CesiumMath.toDegrees(cartographic.latitude);
+        activeEntityRef.value = { position: cartesian, longitude, latitude, type: 'cartographic' };
+      }
+    }
+  }, ScreenSpaceEventType.LEFT_CLICK);
 }
 
 export function destroyCesium(app) {

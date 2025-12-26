@@ -47,9 +47,7 @@ export function setUrlTemplateImageryProvider(viewer) {
   flyToCine(viewer)
 }
 
-function flyToCine(viewer) {
-  const destination = Rectangle.fromDegrees(73, 18, 135, 53);
-  Camera.DEFAULT_VIEW_RECTANGLE = destination;
+export function flyToCine(viewer, destination) {
   viewer.camera.flyTo({
     destination,
     duration: 3.0,               // 飞行时间（秒），可选，越大越慢
