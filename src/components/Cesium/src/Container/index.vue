@@ -12,6 +12,10 @@ const content = ref('');
 const viewer = ref(null);
 const popupShow = ref(false);
 
+function popupClose() {
+  popupShow.value = false
+}
+
 watch(() => unref(getActiveEntity), (newVal) => {
   popupShow.value = false;
   const { type } = toRaw(newVal);
@@ -35,6 +39,6 @@ onUnmounted(() => {
 <template>
   <div id="cesium-container" ref="cesiumContainer">
     <CesiumPopup v-if="popupShow" :viewer="viewer" :position="position" :title="title" :content="content"
-      :offset="[0, 30]" @close="() => { }" />
+      :offset="[0, -10]" @close="popupClose" />
   </div>
 </template>

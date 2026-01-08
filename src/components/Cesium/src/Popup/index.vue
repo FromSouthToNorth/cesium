@@ -210,6 +210,7 @@ defineExpose({
   height: 17px;
   position: relative;
   overflow: hidden;
+  bottom: -29px;
 }
 
 .popup-tip {

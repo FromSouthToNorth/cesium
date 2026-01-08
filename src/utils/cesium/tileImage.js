@@ -47,14 +47,12 @@ export function setUrlTemplateImageryProvider(viewer) {
   flyToCine(viewer)
 }
 
-export function flyToCine(viewer, destination) {
+export function flyToCine(viewer, destination, complete) {
   viewer.camera.flyTo({
     destination,
     duration: 3.0,               // 飞行时间（秒），可选，越大越慢
     maximumHeight: 8000000,      // 可选：飞行过程中最高高度（米），防止飞太高
     pitchAdjustHeight: 2000000,  // 可选：接近终点时调整俯仰高度
-    complete: function () {
-      console.log('已定位到中国');
-    }
+    complete
   });
 }

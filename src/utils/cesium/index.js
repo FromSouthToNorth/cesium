@@ -21,6 +21,10 @@ import CesiumNavigation from 'cesium-navigation-es6';
 
 import { useCesiumStore } from '@/store/modules/cesiumStore';
 import { setUrlTemplateImageryProvider, flyToCine } from './tileImage';
+import { useSetting } from '@/hooks/setting/useSetting'
+import { initPoint, initPolygon } from './geojson'
+
+const { setPageLoading } = useSetting()
 
 Ion.defaultAccessToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJiNGNkZmExNi1iNGFjLTRmMWQtYTk0YS1kZDA0YThjODg0YWEiLCJpZCI6MTIzMzI5LCJpYXQiOjE3NTI2NTYwMDV9.AGrRQMfnLy7_rqCkCqt0ESx3NX3ulhfOZLv-sDZB-vA';
 
@@ -31,13 +35,14 @@ const cesiumStore = useCesiumStore();
 export const getActiveEntity = computed(() => unref(activeEntityRef));
 
 export function initializeCesium(refEl) {
+  setPageLoading(true);
   viewerRef.value = new Viewer(refEl, {
     // infoBox: false,
     timeline: false,
     animation: false,
     shouldAnimate: true, // Enable animations
     baseLayerPicker: false,
-  })
+  });
   const viewer = toRaw(unref(viewerRef))
   // setUrlTemplateImageryProvider(viewer)
   new CesiumNavigation(viewer)
@@ -50,8 +55,12 @@ export function initializeCesium(refEl) {
   cesiumStore.setViewer(viewerRef)
   const destination = Rectangle.fromDegrees(73, 18, 135, 53);
   Camera.DEFAULT_VIEW_RECTANGLE = destination;
-  flyToCine(viewer, destination)
+  flyToCine(viewer, destination, () => {
+    setPageLoading(false);
+  })
   onLeftClick(viewer);
+  initPoint()
+  initPolygon()
   return viewer;
 }
 
@@ -118,17 +127,6 @@ export function destroyCesium(app) {
 
     // 5. 核心销毁
     viewer.isDestroyed() || viewer.destroy()
-
-    // 6. 最后暴力手段 - 缩小 canvas 尺寸，强制浏览器回收 WebGL Context
-    // （很多项目实测这一步最有效释放显存）
-    const canvas = viewer.canvas
-    if (canvas) {
-      const gl = canvas.getContext('webgl') || canvas.getContext('webgl2')
-      if (gl) {
-        gl.canvas.width = 1
-        gl.canvas.height = 1
-      }
-    }
   } catch (e) {
     console.warn('Cesium destroy 过程出现异常:', e)
   } finally {
