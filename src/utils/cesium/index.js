@@ -22,7 +22,9 @@ import CesiumNavigation from 'cesium-navigation-es6';
 import { useCesiumStore } from '@/store/modules/cesiumStore';
 import { setUrlTemplateImageryProvider, flyToCine } from './tileImage';
 import { useSetting } from '@/hooks/setting/useSetting'
-import { initPoint, initPolygon } from './geojson'
+import { initPoint, initPolygon, initTunnel } from './geojson'
+import { initModel } from './model'
+import { initClippingPolygons } from './clipping'
 
 const { setPageLoading } = useSetting()
 
@@ -55,12 +57,19 @@ export function initializeCesium(refEl) {
   cesiumStore.setViewer(viewerRef)
   const destination = Rectangle.fromDegrees(73, 18, 135, 53);
   Camera.DEFAULT_VIEW_RECTANGLE = destination;
-  flyToCine(viewer, destination, () => {
-    setPageLoading(false);
-  })
+  initClippingPolygons(viewer.scene.globe);
+  // flyToCine(viewer, destination, () => {
+  // });
   onLeftClick(viewer);
   initPoint()
   initPolygon()
+  initTunnel()
+  setPageLoading(false);
+  initModel([
+    112.384,
+    39.0157,
+    1556.63
+  ], 'ModelTunnel');
   return viewer;
 }
 

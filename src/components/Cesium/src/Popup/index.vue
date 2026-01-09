@@ -53,6 +53,9 @@ const emit = defineEmits(['close'])
 const visible = ref(false)
 const popupRef = ref(null)
 const removePostRender = ref(null)
+// 屏幕坐标
+const screenPosition = ref(null)
+
 
 // 计算弹窗位置样式
 const popupStyle = computed(() => {
@@ -69,9 +72,6 @@ const popupStyle = computed(() => {
     display: 'block'
   }
 })
-
-// 屏幕坐标
-const screenPosition = ref(null)
 
 const updatePosition = () => {
   if (!props.position || !props.viewer?.scene) {

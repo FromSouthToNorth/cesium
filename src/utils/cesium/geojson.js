@@ -23,3 +23,14 @@ export function initPolygon() {
     viewer.dataSources.add(e)
   })
 }
+
+export function initTunnel() {
+  const viewer = toRaw(unref(cesiumStore.getViewer()))
+  GeoJsonDataSource.load('/src/assets/geojson/tunnel.json', { clampToGround: false }).then(e => {
+    console.log('矿井巷道加载完成！');
+    e.name = 'mineBoundary'
+    viewer.dataSources.add(e)
+    viewer.flyTo(e)
+  })
+}
+
