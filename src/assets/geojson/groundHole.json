@@ -1,0 +1,201 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "5059",
+      "type": "Feature",
+      "properties": {
+        "id": "5059",
+        "name": "NG-12",
+        "mineName": "山西南沟煤业",
+        "label": "NG-12",
+        "depth": 543.70,
+        "columns": [
+          {
+            "title": "钻孔名称: ",
+            "dataIndex": "name"
+          },
+          {
+            "title": "终孔深度: ",
+            "dataIndex": "depth"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.4022734,
+          39.0022161
+        ]
+      }
+    },
+    {
+      "id": "5078",
+      "type": "Feature",
+      "properties": {
+        "id": "5078",
+        "name": "dy-2",
+        "mineName": "山西南沟煤业",
+        "label": "dy-2",
+        "depth": 600.00,
+        "columns": [
+          {
+            "title": "钻孔名称: ",
+            "dataIndex": "name"
+          },
+          {
+            "title": "终孔深度: ",
+            "dataIndex": "depth"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.4042146,
+          39.0159589
+        ]
+      }
+    },
+    {
+      "id": "5079",
+      "type": "Feature",
+      "properties": {
+        "id": "5079",
+        "name": "ZK-7",
+        "mineName": "山西南沟煤业",
+        "label": "ZK-7",
+        "depth": 600.00,
+        "columns": [
+          {
+            "title": "钻孔名称: ",
+            "dataIndex": "name"
+          },
+          {
+            "title": "终孔深度: ",
+            "dataIndex": "depth"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.4097326,
+          39.0173825
+        ]
+      }
+    },
+    {
+      "id": "5083",
+      "type": "Feature",
+      "properties": {
+        "id": "5083",
+        "name": "Dy-6",
+        "mineName": "山西南沟煤业",
+        "label": "Dy-6",
+        "depth": 600.00,
+        "columns": [
+          {
+            "title": "钻孔名称: ",
+            "dataIndex": "name"
+          },
+          {
+            "title": "终孔深度: ",
+            "dataIndex": "depth"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.4016011,
+          39.0190003
+        ]
+      }
+    },
+    {
+      "id": "5087",
+      "type": "Feature",
+      "properties": {
+        "id": "5087",
+        "name": "3号钻孔",
+        "mineName": "山西南沟煤业",
+        "label": "3号钻孔",
+        "depth": 262.09,
+        "columns": [
+          {
+            "title": "钻孔名称: ",
+            "dataIndex": "name"
+          },
+          {
+            "title": "终孔深度: ",
+            "dataIndex": "depth"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3878900,
+          39.0186494
+        ]
+      }
+    },
+    {
+      "id": "5074",
+      "type": "Feature",
+      "properties": {
+        "id": "5074",
+        "name": "NG-11",
+        "mineName": "山西南沟煤业",
+        "label": "NG-11",
+        "depth": 413.00,
+        "columns": [
+          {
+            "title": "钻孔名称: ",
+            "dataIndex": "name"
+          },
+          {
+            "title": "终孔深度: ",
+            "dataIndex": "depth"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.4151180,
+          39.0130493
+        ]
+      }
+    },
+    {
+      "id": "5075",
+      "type": "Feature",
+      "properties": {
+        "id": "5075",
+        "name": "NG-3",
+        "mineName": "山西南沟煤业",
+        "label": "NG-3",
+        "depth": 470.50,
+        "columns": [
+          {
+            "title": "钻孔名称: ",
+            "dataIndex": "name"
+          },
+          {
+            "title": "终孔深度: ",
+            "dataIndex": "depth"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.4189566,
+          39.0109410
+        ]
+      }
+    }
+  ]
+}

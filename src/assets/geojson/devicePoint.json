@@ -1,0 +1,6499 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "SXNGMY0030120003A01",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120003A01",
+        "icon": "t",
+        "mark_type": "B14",
+        "label": "温度 15.70 ℃",
+        "categoryName": "温度",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3838958,
+          39.0164231,
+          1583.71
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120003A03",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120003A03",
+        "icon": "gas",
+        "mark_type": "B14",
+        "label": "瓦斯 0.00 %",
+        "categoryName": "瓦斯",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3991590,
+          39.0090250,
+          1304.6
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120003A07",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120003A07",
+        "icon": "levelMeter",
+        "mark_type": "B14",
+        "label": "液位 0.30 m",
+        "categoryName": "液位",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3860962,
+          39.0190830,
+          1489.5
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120003A08",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120003A08",
+        "icon": "levelMeter",
+        "mark_type": "B14",
+        "label": "液位 1.50 m",
+        "categoryName": "液位",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3860350,
+          39.0190144,
+          1489.5
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120003A10",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120003A10",
+        "icon": "t",
+        "mark_type": "B14",
+        "label": "温度 13.80 ℃",
+        "categoryName": "温度",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3860084,
+          39.0189732,
+          1489.5
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120003A11",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120003A11",
+        "icon": "levelMeter",
+        "mark_type": "B14",
+        "label": "液位 0.30 m",
+        "categoryName": "液位",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3859779,
+          39.0189344,
+          1489.5
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120003A16",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120003A16",
+        "icon": "t",
+        "mark_type": "B14",
+        "label": "温度 27.20 ℃",
+        "categoryName": "温度",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3867678,
+          39.0187479,
+          1483.26
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120003A19",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120003A19",
+        "icon": "co",
+        "mark_type": "B14",
+        "label": "一氧化碳 0.00 ppm",
+        "categoryName": "一氧化碳",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3863188,
+          39.0185863,
+          1489.91
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120003M05C1",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120003M05C1",
+        "icon": "outage",
+        "mark_type": "B14",
+        "label": "复电",
+        "categoryName": "断电",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3862865,
+          39.0185514,
+          1490.92
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120003M05S1",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120003M05S1",
+        "icon": "switchingValue",
+        "mark_type": "B14",
+        "label": "有电",
+        "categoryName": "馈电",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3863087,
+          39.0185754,
+          1490.42
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120003M06C1",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120003M06C1",
+        "icon": "outage",
+        "mark_type": "B14",
+        "label": "复电",
+        "categoryName": "断电",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3862768,
+          39.0185409,
+          1490.92
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120003M06S1",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120003M06S1",
+        "icon": "switchingValue",
+        "mark_type": "B14",
+        "label": "有电",
+        "categoryName": "馈电",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3863258,
+          39.0185939,
+          1489.91
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120003P31A1",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120003P31A1",
+        "icon": "current",
+        "mark_type": "B14",
+        "label": "电流 264.00 A",
+        "categoryName": "电流",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3860861,
+          39.0190726,
+          1489.5
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120003P31A2",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120003P31A2",
+        "icon": "current",
+        "mark_type": "B14",
+        "label": "电流 61.00 A",
+        "categoryName": "电流",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3860811,
+          39.0190676,
+          1489.5
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120003P31A3",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120003P31A3",
+        "icon": "current",
+        "mark_type": "B14",
+        "label": "电流 184.00 A",
+        "categoryName": "电流",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3860765,
+          39.0190629,
+          1489.5
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120003P31A4",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120003P31A4",
+        "icon": "current",
+        "mark_type": "B14",
+        "label": "电流 95.00 A",
+        "categoryName": "电流",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3860720,
+          39.0190583,
+          1489.5
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120003P31A5",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120003P31A5",
+        "icon": "current",
+        "mark_type": "B14",
+        "label": "电流 45.00 A",
+        "categoryName": "电流",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3860645,
+          39.0190508,
+          1489.5
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120003P31A6",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120003P31A6",
+        "icon": "current",
+        "mark_type": "B14",
+        "label": "电流 22.00 A",
+        "categoryName": "电流",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3860557,
+          39.0190419,
+          1489.5
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120003P31A7",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120003P31A7",
+        "icon": "flow",
+        "mark_type": "B14",
+        "label": "流量 100.00 m3\/min",
+        "categoryName": "流量",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3860470,
+          39.0190330,
+          1489.5
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120003P31A8",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120003P31A8",
+        "icon": "voltage",
+        "mark_type": "B14",
+        "label": "电压 28.50 V",
+        "categoryName": "电压",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3860176,
+          39.0189875,
+          1489.5
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120003S13",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120003S13",
+        "icon": "smog",
+        "mark_type": "B14",
+        "label": "无烟",
+        "categoryName": "烟雾",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3862950,
+          39.0185605,
+          1490.42
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120005A16",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120005A16",
+        "icon": "co",
+        "mark_type": "B14",
+        "label": "一氧化碳 0.00 ppm",
+        "categoryName": "一氧化碳",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3993377,
+          39.0182180,
+          1452
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120005M00S1",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120005M00S1",
+        "icon": "damper",
+        "mark_type": "B14",
+        "label": "关",
+        "categoryName": "风门",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3995834,
+          39.0110216,
+          1416.46
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120005M25C1",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120005M25C1",
+        "icon": "outage",
+        "mark_type": "B14",
+        "label": "复电",
+        "categoryName": "断电",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3993377,
+          39.0182152,
+          1452
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120005M25S1",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120005M25S1",
+        "icon": "switchingValue",
+        "mark_type": "B14",
+        "label": "有电",
+        "categoryName": "馈电",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3993377,
+          39.0182166,
+          1452
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120005S27",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120005S27",
+        "icon": "smog",
+        "mark_type": "B14",
+        "label": "无烟",
+        "categoryName": "烟雾",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3991773,
+          39.0090018,
+          1304.6
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120008A03",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120008A03",
+        "icon": "windSpeed",
+        "mark_type": "B14",
+        "label": "风速 3.51 m\/s",
+        "categoryName": "风速",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3996086,
+          39.0087724,
+          1321.49
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120008A04",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120008A04",
+        "icon": "windSpeed",
+        "mark_type": "B14",
+        "label": "风速 1.20 m\/s",
+        "categoryName": "风速",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3996124,
+          39.0092899,
+          1327.25
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120008A09",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120008A09",
+        "icon": "t",
+        "mark_type": "B14",
+        "label": "温度 17.10 ℃",
+        "categoryName": "温度",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3990116,
+          39.0100406,
+          1328.86
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120008A13",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120008A13",
+        "icon": "co",
+        "mark_type": "B14",
+        "label": "一氧化碳 1.00 ppm",
+        "categoryName": "一氧化碳",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3997068,
+          39.0088835,
+          1319.6
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120008A16",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120008A16",
+        "icon": "co",
+        "mark_type": "B14",
+        "label": "一氧化碳 0.00 ppm",
+        "categoryName": "一氧化碳",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3996263,
+          39.0092628,
+          1326.91
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120008M00S2",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120008M00S2",
+        "icon": "damper",
+        "mark_type": "B14",
+        "label": "关",
+        "categoryName": "风门",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3995480,
+          39.0108485,
+          1346.55
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120008M00S4",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120008M00S4",
+        "icon": "damper",
+        "mark_type": "B14",
+        "label": "关",
+        "categoryName": "风门",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3995480,
+          39.0108485,
+          1346.55
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120011A01",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120011A01",
+        "icon": "windSpeed",
+        "mark_type": "B14",
+        "label": "风速 3.08 m\/s",
+        "categoryName": "风速",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3845668,
+          39.0166810,
+          1534.45
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120011A20",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120011A20",
+        "icon": "t",
+        "mark_type": "B14",
+        "label": "温度 15.80 ℃",
+        "categoryName": "温度",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3845668,
+          39.0166810,
+          1534.45
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120011A21",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120011A21",
+        "icon": "t",
+        "mark_type": "B14",
+        "label": "温度 14.60 ℃",
+        "categoryName": "温度",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3838722,
+          39.0163992,
+          1584.9
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120011A22",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120011A22",
+        "icon": "t",
+        "mark_type": "B14",
+        "label": "温度 69.20 ℃",
+        "categoryName": "温度",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3838733,
+          39.0164004,
+          1584.9
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120011A23",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120011A23",
+        "icon": "t",
+        "mark_type": "B14",
+        "label": "温度 31.50 ℃",
+        "categoryName": "温度",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3838710,
+          39.0163980,
+          1584.9
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120011A24",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120011A24",
+        "icon": "t",
+        "mark_type": "B14",
+        "label": "温度 57.90 ℃",
+        "categoryName": "温度",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3838744,
+          39.0164015,
+          1584.9
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120011M19S1",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120011M19S1",
+        "icon": "switchingValue",
+        "mark_type": "B14",
+        "label": "有电",
+        "categoryName": "馈电",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3838766,
+          39.0164037,
+          1583.71
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120011M25S1",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120011M25S1",
+        "icon": "switchingValue",
+        "mark_type": "B14",
+        "label": "有电",
+        "categoryName": "馈电",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3838755,
+          39.0164026,
+          1584.9
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120011P31A8",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120011P31A8",
+        "icon": "voltage",
+        "mark_type": "B14",
+        "label": "电压 28.10 V",
+        "categoryName": "电压",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3836109,
+          39.0156414,
+          1558.74
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120011S04",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120011S04",
+        "icon": "smog",
+        "mark_type": "B14",
+        "label": "无烟",
+        "categoryName": "烟雾",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3836173,
+          39.0156594,
+          1558.74
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120011S17",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120011S17",
+        "icon": "onAndOff",
+        "mark_type": "B14",
+        "label": "开",
+        "categoryName": "开停",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3863396,
+          39.0186087,
+          1489.4
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120012A03",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120012A03",
+        "icon": "gas",
+        "mark_type": "B14",
+        "label": "瓦斯 0.00 %",
+        "categoryName": "瓦斯",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3993315,
+          39.0177042,
+          1485.91
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120015S01",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120015S01",
+        "icon": "mainFan",
+        "mark_type": "B14",
+        "label": "停",
+        "categoryName": "主扇",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3999428,
+          39.0089763,
+          1602
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120015S02",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120015S02",
+        "icon": "mainFan",
+        "mark_type": "B14",
+        "label": "停",
+        "categoryName": "主扇",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3998785,
+          39.0089763,
+          1313
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120015S03",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120015S03",
+        "icon": "mainFan",
+        "mark_type": "B14",
+        "label": "开",
+        "categoryName": "主扇",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3999327,
+          39.0089931,
+          1602
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120015S04",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120015S04",
+        "icon": "mainFan",
+        "mark_type": "B14",
+        "label": "开",
+        "categoryName": "主扇",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3999499,
+          39.0089887,
+          1602
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120016A03",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120016A03",
+        "icon": "levelMeter",
+        "mark_type": "B14",
+        "label": "液位 2.70 m",
+        "categoryName": "液位",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3994123,
+          38.9977696,
+          1168.19
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120016A04",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120016A04",
+        "icon": "levelMeter",
+        "mark_type": "B14",
+        "label": "液位 1.60 m",
+        "categoryName": "液位",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3994340,
+          38.9976689,
+          1162.4
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120016A05",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120016A05",
+        "icon": "t",
+        "mark_type": "B14",
+        "label": "温度 13.70 ℃",
+        "categoryName": "温度",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3995660,
+          38.9976658,
+          1162.4
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120016A08",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120016A08",
+        "icon": "levelMeter",
+        "mark_type": "B14",
+        "label": "液位 1.50 m",
+        "categoryName": "液位",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3993952,
+          38.9976698,
+          1162.4
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120016M00S1",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120016M00S1",
+        "icon": "damper",
+        "mark_type": "B14",
+        "label": "关",
+        "categoryName": "风门",
+        "date": "2025-02-09 08:30:55",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3992165,
+          38.9980688,
+          1167.4
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120016M00S2",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120016M00S2",
+        "icon": "damper",
+        "mark_type": "B14",
+        "label": "关",
+        "categoryName": "风门",
+        "date": "2025-02-09 08:30:55",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3994056,
+          38.9986174,
+          1163.54
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120016M00S3",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120016M00S3",
+        "icon": "damper",
+        "mark_type": "B14",
+        "label": "关",
+        "categoryName": "风门",
+        "date": "2025-02-09 08:30:55",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3992701,
+          38.9980688,
+          1167.4
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120016P31A1",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120016P31A1",
+        "icon": "current",
+        "mark_type": "B14",
+        "label": "电流 328.00 A",
+        "categoryName": "电流",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3993971,
+          38.9977697,
+          1168.33
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120016P31A2",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120016P31A2",
+        "icon": "current",
+        "mark_type": "B14",
+        "label": "电流 92.00 A",
+        "categoryName": "电流",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3994214,
+          38.9976692,
+          1162.4
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120016P31A3",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120016P31A3",
+        "icon": "current",
+        "mark_type": "B14",
+        "label": "电流 20.00 A",
+        "categoryName": "电流",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3994691,
+          38.9977692,
+          1168.06
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120016P31A4",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120016P31A4",
+        "icon": "current",
+        "mark_type": "B14",
+        "label": "电流 0.00 A",
+        "categoryName": "电流",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3994529,
+          38.9977693,
+          1168.06
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120016P31A5",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120016P31A5",
+        "icon": "current",
+        "mark_type": "B14",
+        "label": "电流 75.00 A",
+        "categoryName": "电流",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3994771,
+          38.9977691,
+          1168.06
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120016P31A6",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120016P31A6",
+        "icon": "current",
+        "mark_type": "B14",
+        "label": "电流 23.00 A",
+        "categoryName": "电流",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3994210,
+          38.9977695,
+          1168.19
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120016P31A7",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120016P31A7",
+        "icon": "flow",
+        "mark_type": "B14",
+        "label": "流量 100.00 m3\/min",
+        "categoryName": "流量",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3993805,
+          38.9977698,
+          1168.33
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120016P31A8",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120016P31A8",
+        "icon": "voltage",
+        "mark_type": "B14",
+        "label": "电压 28.10 V",
+        "categoryName": "电压",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3994432,
+          38.9977694,
+          1168.19
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120017A05",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120017A05",
+        "icon": "t",
+        "mark_type": "B14",
+        "label": "温度 12.90 ℃",
+        "categoryName": "温度",
+        "date": "2024-11-29 13:52:56",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3991108,
+          39.0015593,
+          1271.2
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120017M00S1",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120017M00S1",
+        "icon": "damper",
+        "mark_type": "B14",
+        "label": "关",
+        "categoryName": "风门",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3986312,
+          39.0013741,
+          1271.2
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120017M00S2",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120017M00S2",
+        "icon": "damper",
+        "mark_type": "B14",
+        "label": "关",
+        "categoryName": "风门",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3986178,
+          39.0013094,
+          1270.53
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120017M00S3",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120017M00S3",
+        "icon": "damper",
+        "mark_type": "B14",
+        "label": "关",
+        "categoryName": "风门",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3988686,
+          39.0187625,
+          1536
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120017M00S4",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120017M00S4",
+        "icon": "damper",
+        "mark_type": "B14",
+        "label": "关",
+        "categoryName": "风门",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3988766,
+          39.0187385,
+          1536
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120018A02",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120018A02",
+        "icon": "windSpeed",
+        "mark_type": "B14",
+        "label": "风速 1.80 m\/s",
+        "categoryName": "风速",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3987975,
+          39.0073168,
+          1294.92
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120018A04",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120018A04",
+        "icon": "windSpeed",
+        "mark_type": "B14",
+        "label": "风速 0.84 m\/s",
+        "categoryName": "风速",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3989917,
+          39.0175335,
+          1452.91
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120018A07",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120018A07",
+        "icon": "t",
+        "mark_type": "B14",
+        "label": "温度 14.10 ℃",
+        "categoryName": "温度",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3986401,
+          39.0088962,
+          1308.53
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120018A10",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120018A10",
+        "icon": "levelMeter",
+        "mark_type": "B14",
+        "label": "液位 1.50 m",
+        "categoryName": "液位",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3986457,
+          39.0087797,
+          1308.08
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120018A11",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120018A11",
+        "icon": "levelMeter",
+        "mark_type": "B14",
+        "label": "液位 1.30 m",
+        "categoryName": "液位",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3986457,
+          39.0088214,
+          1308.19
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120018A20",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120018A20",
+        "icon": "levelMeter",
+        "mark_type": "B14",
+        "label": "液位 1.30 m",
+        "categoryName": "液位",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3986359,
+          39.0086878,
+          1307.62
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120018A22",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120018A22",
+        "icon": "t",
+        "mark_type": "B14",
+        "label": "温度 12.10 ℃",
+        "categoryName": "温度",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3995850,
+          39.0083346,
+          1309.2
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120018A23",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120018A23",
+        "icon": "co",
+        "mark_type": "B14",
+        "label": "一氧化碳 0.00 ppm",
+        "categoryName": "一氧化碳",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3995850,
+          39.0083346,
+          1309.2
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120018A25",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120018A25",
+        "icon": "windSpeed",
+        "mark_type": "B14",
+        "label": "风速 2.68 m\/s",
+        "categoryName": "风速",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3995995,
+          39.0082897,
+          1307.76
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120018M06S3",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120018M06S3",
+        "icon": "damper",
+        "mark_type": "B14",
+        "label": "关",
+        "categoryName": "风门",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3991811,
+          39.0089795,
+          1304.6
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120018S05",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120018S05",
+        "icon": "localFan",
+        "mark_type": "B14",
+        "label": "停",
+        "categoryName": "局扇",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3986410,
+          39.0089440,
+          1308.75
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120018S24",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120018S24",
+        "icon": "localFan",
+        "mark_type": "B14",
+        "label": "停",
+        "categoryName": "局扇",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3986416,
+          39.0089730,
+          1308.87
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120019A07",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120019A07",
+        "icon": "co",
+        "mark_type": "B14",
+        "label": "一氧化碳 0.00 ppm",
+        "categoryName": "一氧化碳",
+        "date": "2024-11-28 12:01:21",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.4000998,
+          39.0021897,
+          1209.28
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120019A08",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120019A08",
+        "icon": "gas",
+        "mark_type": "B14",
+        "label": "瓦斯 0.00 %",
+        "categoryName": "瓦斯",
+        "date": "2024-11-28 12:02:22",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.4002492,
+          39.0024295,
+          1213.21
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120019A10",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120019A10",
+        "icon": "co",
+        "mark_type": "B14",
+        "label": "一氧化碳 0.00 ppm",
+        "categoryName": "一氧化碳",
+        "date": "2024-12-22 14:13:37",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.4004054,
+          39.0024278,
+          1213.04
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120019M03A1",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120019M03A1",
+        "icon": "gas",
+        "mark_type": "B14",
+        "label": "瓦斯 0.00 %",
+        "categoryName": "瓦斯",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.4000928,
+          39.0005214,
+          1180.35
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120019M03A2",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120019M03A2",
+        "icon": "co",
+        "mark_type": "B14",
+        "label": "一氧化碳 0.00 ppm",
+        "categoryName": "一氧化碳",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.4005232,
+          39.0024266,
+          1212.94
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120019P31A2",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120019P31A2",
+        "icon": "current",
+        "mark_type": "B14",
+        "label": "电流 80.00 A",
+        "categoryName": "电流",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3987321,
+          39.0024416,
+          1226.4
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120019P31A5",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120019P31A5",
+        "icon": "current",
+        "mark_type": "B14",
+        "label": "电流 0.00 A",
+        "categoryName": "电流",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3987194,
+          39.0030767,
+          1239.3
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120019P31A6",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120019P31A6",
+        "icon": "current",
+        "mark_type": "B14",
+        "label": "电流 0.00 A",
+        "categoryName": "电流",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3987178,
+          39.0029849,
+          1237.57
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120019P31A7",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120019P31A7",
+        "icon": "flow",
+        "mark_type": "B14",
+        "label": "流量 100.00 m3\/min",
+        "categoryName": "流量",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3987162,
+          39.0028994,
+          1235.83
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120021A03",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120021A03",
+        "icon": "windSpeed",
+        "mark_type": "B14",
+        "label": "风速 2.57 m\/s",
+        "categoryName": "风速",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3991371,
+          39.0071201,
+          1284.57
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120021A07",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120021A07",
+        "icon": "windSpeed",
+        "mark_type": "B14",
+        "label": "风速 4.29 m\/s",
+        "categoryName": "风速",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3925212,
+          39.0184686,
+          1536
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120021A08",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120021A08",
+        "icon": "windSpeed",
+        "mark_type": "B14",
+        "label": "风速 1.42 m\/s",
+        "categoryName": "风速",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3995265,
+          39.0077098,
+          1355.29
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120021P31A8",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120021P31A8",
+        "icon": "voltage",
+        "mark_type": "B14",
+        "label": "电压 28.90 V",
+        "categoryName": "电压",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3993393,
+          39.0178080,
+          1485.77
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120021S09",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120021S09",
+        "icon": "smog",
+        "mark_type": "B14",
+        "label": "无烟",
+        "categoryName": "烟雾",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3993317,
+          39.0177166,
+          1485.87
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120022A02",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120022A02",
+        "icon": "co",
+        "mark_type": "B14",
+        "label": "一氧化碳 0.00 ppm",
+        "categoryName": "一氧化碳",
+        "date": "2025-01-14 07:18:24",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3987165,
+          39.0005248,
+          1192.89
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120022A03",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120022A03",
+        "icon": "gas",
+        "mark_type": "B14",
+        "label": "瓦斯 0.00 %",
+        "categoryName": "瓦斯",
+        "date": "2024-12-06 07:33:57",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3989912,
+          39.0005481,
+          1186.45
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120022A05",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120022A05",
+        "icon": "co",
+        "mark_type": "B14",
+        "label": "一氧化碳 0.00 ppm",
+        "categoryName": "一氧化碳",
+        "date": "2024-12-06 07:33:27",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.4000596,
+          39.0005208,
+          1180.41
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120022A08",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120022A08",
+        "icon": "co",
+        "mark_type": "B14",
+        "label": "一氧化碳 0.00 ppm",
+        "categoryName": "一氧化碳",
+        "date": "2025-01-14 07:18:24",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.4000771,
+          39.0005215,
+          1180.4
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120022M04C1",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120022M04C1",
+        "icon": "outage",
+        "mark_type": "B14",
+        "label": "断电",
+        "categoryName": "断电",
+        "date": "2024-12-06 11:49:48",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.4000919,
+          39.0005214,
+          1180.35
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120022M04S1",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120022M04S1",
+        "icon": "switchingValue",
+        "mark_type": "B14",
+        "label": "无电",
+        "categoryName": "馈电",
+        "date": "2024-12-06 11:49:48",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.4001053,
+          39.0005212,
+          1180.35
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120022S10",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120022S10",
+        "icon": "smog",
+        "mark_type": "B14",
+        "label": "无烟",
+        "categoryName": "烟雾",
+        "date": "2024-12-06 07:38:54",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3990427,
+          39.0005444,
+          1190.67
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120023A08",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120023A08",
+        "icon": "co",
+        "mark_type": "B14",
+        "label": "一氧化碳 0.00 ppm",
+        "categoryName": "一氧化碳",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3989719,
+          39.0151463,
+          1481.84
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120023A12",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120023A12",
+        "icon": "co",
+        "mark_type": "B14",
+        "label": "一氧化碳 0.00 ppm",
+        "categoryName": "一氧化碳",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3896405,
+          39.0140926,
+          1456
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120023M02S3",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120023M02S3",
+        "icon": "damper",
+        "mark_type": "B14",
+        "label": "关",
+        "categoryName": "风门",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3993340,
+          39.0136567,
+          1467.9
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120023M29S3",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120023M29S3",
+        "icon": "damper",
+        "mark_type": "B14",
+        "label": "关",
+        "categoryName": "风门",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3993340,
+          39.0136567,
+          1467.9
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120023P31A1",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120023P31A1",
+        "icon": "current",
+        "mark_type": "B14",
+        "label": "电流 284.00 A",
+        "categoryName": "电流",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3969250,
+          39.0140126,
+          1452.46
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120023P31A2",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120023P31A2",
+        "icon": "current",
+        "mark_type": "B14",
+        "label": "电流 30.00 A",
+        "categoryName": "电流",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3969627,
+          39.0140122,
+          1451.62
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120023P31A3",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120023P31A3",
+        "icon": "current",
+        "mark_type": "B14",
+        "label": "电流 0.00 A",
+        "categoryName": "电流",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3970180,
+          39.0140115,
+          1451.33
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120023P31A4",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120023P31A4",
+        "icon": "current",
+        "mark_type": "B14",
+        "label": "电流 39.00 A",
+        "categoryName": "电流",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3970567,
+          39.0140110,
+          1451.33
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120023P31A5",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120023P31A5",
+        "icon": "current",
+        "mark_type": "B14",
+        "label": "电流 86.00 A",
+        "categoryName": "电流",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3970931,
+          39.0140104,
+          1452
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120023P31A6",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120023P31A6",
+        "icon": "current",
+        "mark_type": "B14",
+        "label": "电流 0.00 A",
+        "categoryName": "电流",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3971226,
+          39.0140100,
+          1452.34
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120023P31A7",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120023P31A7",
+        "icon": "flow",
+        "mark_type": "B14",
+        "label": "流量 100.00 m3\/min",
+        "categoryName": "流量",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3971745,
+          39.0140092,
+          1452.68
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120023P31A8",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120023P31A8",
+        "icon": "voltage",
+        "mark_type": "B14",
+        "label": "电压 26.90 V",
+        "categoryName": "电压",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3975380,
+          39.0153549,
+          1477.14
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120023S11",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120023S11",
+        "icon": "smog",
+        "mark_type": "B14",
+        "label": "无烟",
+        "categoryName": "烟雾",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3989403,
+          39.0151639,
+          1481.67
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120023S14",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120023S14",
+        "icon": "smog",
+        "mark_type": "B14",
+        "label": "无烟",
+        "categoryName": "烟雾",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3991914,
+          39.0150762,
+          1483.01
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120024A04",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120024A04",
+        "icon": "windSpeed",
+        "mark_type": "B14",
+        "label": "风速 1.84 m\/s",
+        "categoryName": "风速",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3993731,
+          39.0089929,
+          1380.97
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120024A06",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120024A06",
+        "icon": "oxygen",
+        "mark_type": "B14",
+        "label": "氧气 22.30 %",
+        "categoryName": "氧气",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3994600,
+          39.0105243,
+          1406.52
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120024A07",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120024A07",
+        "icon": "t",
+        "mark_type": "B14",
+        "label": "温度 12.20 ℃",
+        "categoryName": "温度",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3993983,
+          39.0105180,
+          1406.03
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120024A16",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120024A16",
+        "icon": "t",
+        "mark_type": "B14",
+        "label": "温度 10.10 ℃",
+        "categoryName": "温度",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3994888,
+          39.0090010,
+          1380.97
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120024A18",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120024A18",
+        "icon": "co",
+        "mark_type": "B14",
+        "label": "一氧化碳 0.00 ppm",
+        "categoryName": "一氧化碳",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3994717,
+          39.0090015,
+          1380.97
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120024A25",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120024A25",
+        "icon": "co",
+        "mark_type": "B14",
+        "label": "一氧化碳 0.00 ppm",
+        "categoryName": "一氧化碳",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3994826,
+          39.0089892,
+          1380.97
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120025A11",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120025A11",
+        "icon": "co",
+        "mark_type": "B14",
+        "label": "一氧化碳 0.00 ppm",
+        "categoryName": "一氧化碳",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3987648,
+          39.0092011,
+          1382.19
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120025A15",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120025A15",
+        "icon": "co",
+        "mark_type": "B14",
+        "label": "一氧化碳 0.00 ppm",
+        "categoryName": "一氧化碳",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.4096841,
+          39.0050839,
+          1274.22
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120025A20",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120025A20",
+        "icon": "windSpeed",
+        "mark_type": "B14",
+        "label": "风速 4.46 m\/s",
+        "categoryName": "风速",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3987659,
+          39.0086898,
+          1377.23
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120025A21",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120025A21",
+        "icon": "t",
+        "mark_type": "B14",
+        "label": "温度 9.90 ℃",
+        "categoryName": "温度",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3988396,
+          39.0014737,
+          1271.2
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120025A22",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120025A22",
+        "icon": "co",
+        "mark_type": "B14",
+        "label": "一氧化碳 0.00 ppm",
+        "categoryName": "一氧化碳",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3987809,
+          39.0090052,
+          1380.97
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120025M24S3",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120025M24S3",
+        "icon": "damper",
+        "mark_type": "B14",
+        "label": "关",
+        "categoryName": "风门",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3991811,
+          39.0089795,
+          1304.6
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120027A06",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120027A06",
+        "icon": "co",
+        "mark_type": "B14",
+        "label": "一氧化碳 0.00 ppm",
+        "categoryName": "一氧化碳",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3983775,
+          39.0182486,
+          1527.92
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120027S09",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120027S09",
+        "icon": "smog",
+        "mark_type": "B14",
+        "label": "无烟",
+        "categoryName": "烟雾",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3983774,
+          39.0182442,
+          1527.92
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120028A01",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120028A01",
+        "icon": "coz",
+        "mark_type": "B14",
+        "label": "二氧化碳 0.00 %",
+        "categoryName": "二氧化碳",
+        "date": "2025-02-28 13:40:44",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3992015,
+          39.0093805,
+          1378.2
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120028A08",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120028A08",
+        "icon": "coz",
+        "mark_type": "B14",
+        "label": "二氧化碳 0.00 %",
+        "categoryName": "二氧化碳",
+        "date": "2025-02-28 13:40:44",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3987345,
+          39.0080753,
+          1370.83
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120028A09",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120028A09",
+        "icon": "oxygen",
+        "mark_type": "B14",
+        "label": "氧气 20.90 %",
+        "categoryName": "氧气",
+        "date": "2025-02-28 13:40:44",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3987640,
+          39.0080566,
+          1370.83
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120028A10",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120028A10",
+        "icon": "co",
+        "mark_type": "B14",
+        "label": "一氧化碳 0.00 ppm",
+        "categoryName": "一氧化碳",
+        "date": "2025-02-28 13:40:44",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3995459,
+          39.0091271,
+          1378.2
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120028A14",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120028A14",
+        "icon": "coz",
+        "mark_type": "B14",
+        "label": "二氧化碳 0.00 %",
+        "categoryName": "二氧化碳",
+        "date": "2025-02-28 13:40:44",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3995460,
+          39.0091478,
+          1378.2
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120028A17",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120028A17",
+        "icon": "oxygen",
+        "mark_type": "B14",
+        "label": "氧气 21.00 %",
+        "categoryName": "氧气",
+        "date": "2025-02-28 13:40:44",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3991757,
+          39.0093740,
+          1378.2
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120028A18",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120028A18",
+        "icon": "co",
+        "mark_type": "B14",
+        "label": "一氧化碳 0.00 ppm",
+        "categoryName": "一氧化碳",
+        "date": "2025-02-28 13:40:44",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3987600,
+          39.0080858,
+          1370.83
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120028M07A1",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120028M07A1",
+        "icon": "t",
+        "mark_type": "B14",
+        "label": "温度 11.30 ℃",
+        "categoryName": "温度",
+        "date": "2025-02-28 13:40:44",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3882251,
+          39.0190857,
+          1494.52
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120028P31A2",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120028P31A2",
+        "icon": "current",
+        "mark_type": "B14",
+        "label": "电流 25.00 A",
+        "categoryName": "电流",
+        "date": "2025-02-28 13:40:44",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3987514,
+          39.0080488,
+          1370.83
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120028P31A5",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120028P31A5",
+        "icon": "current",
+        "mark_type": "B14",
+        "label": "电流 0.00 A",
+        "categoryName": "电流",
+        "date": "2025-02-28 13:40:44",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3987286,
+          39.0080739,
+          1370.83
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120031A02",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120031A02",
+        "icon": "gas",
+        "mark_type": "B14",
+        "label": "瓦斯 0.01 %",
+        "categoryName": "瓦斯",
+        "date": "2025-01-13 07:17:25",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.4001054,
+          39.0023361,
+          1212.13
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120031M01A2",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120031M01A2",
+        "icon": "co",
+        "mark_type": "B14",
+        "label": "一氧化碳 0.00 ppm",
+        "categoryName": "一氧化碳",
+        "date": "2025-02-15 13:11:22",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.4007688,
+          39.0024240,
+          1212.71
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120031M11S3",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120031M11S3",
+        "icon": "damper",
+        "mark_type": "B14",
+        "label": "关",
+        "categoryName": "风门",
+        "date": "2025-01-25 07:14:45",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3990888,
+          39.0025052,
+          1241.45
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120035A01",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120035A01",
+        "icon": "co",
+        "mark_type": "B14",
+        "label": "一氧化碳 0.00 ppm",
+        "categoryName": "一氧化碳",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.4094963,
+          39.0050861,
+          1274.62
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120035A03",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120035A03",
+        "icon": "co",
+        "mark_type": "B14",
+        "label": "一氧化碳 0.00 ppm",
+        "categoryName": "一氧化碳",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3998540,
+          39.0072546,
+          1355
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120035A04",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120035A04",
+        "icon": "co",
+        "mark_type": "B14",
+        "label": "一氧化碳 0.00 ppm",
+        "categoryName": "一氧化碳",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.4002798,
+          39.0052134,
+          1329.39
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120035A05",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120035A05",
+        "icon": "co",
+        "mark_type": "B14",
+        "label": "一氧化碳 0.00 ppm",
+        "categoryName": "一氧化碳",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3999221,
+          39.0052173,
+          1333.86
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120035M17C1",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120035M17C1",
+        "icon": "outage",
+        "mark_type": "B14",
+        "label": "复电",
+        "categoryName": "断电",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3994921,
+          39.0053701,
+          1336
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120035M17S1",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120035M17S1",
+        "icon": "switchingValue",
+        "mark_type": "B14",
+        "label": "有电",
+        "categoryName": "馈电",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3996401,
+          39.0052543,
+          1336
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120036A02",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120036A02",
+        "icon": "dust",
+        "mark_type": "B14",
+        "label": "粉尘 1.00 mg\/m3",
+        "categoryName": "粉尘",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.4087144,
+          39.0068232,
+          1318.2
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120036A07",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120036A07",
+        "icon": "oxygen",
+        "mark_type": "B14",
+        "label": "氧气 19.30 %",
+        "categoryName": "氧气",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.4088530,
+          39.0068215,
+          1317.88
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120036M03A1",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120036M03A1",
+        "icon": "gas",
+        "mark_type": "B14",
+        "label": "瓦斯 0.01 %",
+        "categoryName": "瓦斯",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.4098460,
+          39.0068096,
+          1315.67
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120036M03A2",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120036M03A2",
+        "icon": "co",
+        "mark_type": "B14",
+        "label": "一氧化碳 0.00 ppm",
+        "categoryName": "一氧化碳",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.4099483,
+          39.0068083,
+          1315.43
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120036M03A3",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120036M03A3",
+        "icon": "t",
+        "mark_type": "B14",
+        "label": "温度 17.00 ℃",
+        "categoryName": "温度",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.4100599,
+          39.0068070,
+          1315.11
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120036M06A1",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120036M06A1",
+        "icon": "gas",
+        "mark_type": "B14",
+        "label": "瓦斯 0.00 %",
+        "categoryName": "瓦斯",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.4094120,
+          39.0068148,
+          1316.62
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120036M06A2",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120036M06A2",
+        "icon": "co",
+        "mark_type": "B14",
+        "label": "一氧化碳 0.00 ppm",
+        "categoryName": "一氧化碳",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.4092017,
+          39.0068173,
+          1317.09
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120036P31A7",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120036P31A7",
+        "icon": "flow",
+        "mark_type": "B14",
+        "label": "流量 100.00 m3\/min",
+        "categoryName": "流量",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3998617,
+          39.0052180,
+          1334.27
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120036P31A8",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120036P31A8",
+        "icon": "voltage",
+        "mark_type": "B14",
+        "label": "电压 28.40 V",
+        "categoryName": "电压",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.4031680,
+          39.0070312,
+          1325.73
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120037A04",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120037A04",
+        "icon": "dust",
+        "mark_type": "B14",
+        "label": "粉尘 0.50 mg\/m3",
+        "categoryName": "粉尘",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3962569,
+          39.0153694,
+          1472.24
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120037M01A1",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120037M01A1",
+        "icon": "gas",
+        "mark_type": "B14",
+        "label": "瓦斯 0.00 %",
+        "categoryName": "瓦斯",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3992824,
+          39.0149322,
+          1461.58
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120037M01A2",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120037M01A2",
+        "icon": "co",
+        "mark_type": "B14",
+        "label": "一氧化碳 0.00 ppm",
+        "categoryName": "一氧化碳",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3979339,
+          39.0153404,
+          1478.59
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120037M22A1",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120037M22A1",
+        "icon": "gas",
+        "mark_type": "B14",
+        "label": "瓦斯 0.00 %",
+        "categoryName": "瓦斯",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3961890,
+          39.0153702,
+          1471.98
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120041M03A1",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120041M03A1",
+        "icon": "gas",
+        "mark_type": "B14",
+        "label": "瓦斯 0.00 %",
+        "categoryName": "瓦斯",
+        "date": "2025-04-27 07:27:04",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3999857,
+          39.0086951,
+          1302.72
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120043A03",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120043A03",
+        "icon": "dust",
+        "mark_type": "B14",
+        "label": "粉尘 1.20 mg\/m3",
+        "categoryName": "粉尘",
+        "date": "2024-12-16 13:35:13",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3986916,
+          39.0016172,
+          1205.76
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120043A05",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120043A05",
+        "icon": "co",
+        "mark_type": "B14",
+        "label": "一氧化碳 0.00 ppm",
+        "categoryName": "一氧化碳",
+        "date": "2024-11-28 12:05:56",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3986968,
+          39.0018964,
+          1213.29
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120043M01A1",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120043M01A1",
+        "icon": "gas",
+        "mark_type": "B14",
+        "label": "瓦斯 0.00 %",
+        "categoryName": "瓦斯",
+        "date": "2024-12-16 13:22:49",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.4001412,
+          39.0005208,
+          1180.28
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120043M01A2",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120043M01A2",
+        "icon": "co",
+        "mark_type": "B14",
+        "label": "一氧化碳 0.00 ppm",
+        "categoryName": "一氧化碳",
+        "date": "2024-12-16 13:22:49",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.4006519,
+          39.0024252,
+          1212.81
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120003F00",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120003F00",
+        "icon": "branchStation",
+        "mark_type": "B14",
+        "label": "分站 0 ",
+        "categoryName": "分站",
+        "date": "2023-04-27 14:40:40",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3858981,
+          39.0188049,
+          1489.5
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120005F00",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120005F00",
+        "icon": "branchStation",
+        "mark_type": "B14",
+        "label": "分站 0 ",
+        "categoryName": "分站",
+        "date": "2023-04-27 14:40:40",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3975780,
+          39.0186720,
+          1468.6
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120008F00",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120008F00",
+        "icon": "branchStation",
+        "mark_type": "B14",
+        "label": "分站 0 ",
+        "categoryName": "分站",
+        "date": "2023-04-27 14:40:40",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3995767,
+          39.0108464,
+          1346.2
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120009F00",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120009F00",
+        "icon": "branchStation",
+        "mark_type": "B14",
+        "label": "分站 0 ",
+        "categoryName": "分站",
+        "date": "2023-04-27 14:40:40",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3988755,
+          39.0099130,
+          1327.7
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120011F00",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120011F00",
+        "icon": "branchStation",
+        "mark_type": "B14",
+        "label": "分站 0 ",
+        "categoryName": "分站",
+        "date": "2023-04-27 14:40:40",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3836359,
+          39.0156800,
+          1558.24
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120015F00",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120015F00",
+        "icon": "branchStation",
+        "mark_type": "B14",
+        "label": "分站 0 ",
+        "categoryName": "分站",
+        "date": "2023-04-27 14:40:40",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3999428,
+          39.0089805,
+          1602
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120016F00",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120016F00",
+        "icon": "branchStation",
+        "mark_type": "B14",
+        "label": "分站 0 ",
+        "categoryName": "分站",
+        "date": "2023-04-27 14:40:40",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3994055,
+          38.9977696,
+          1168.33
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120017F00",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120017F00",
+        "icon": "branchStation",
+        "mark_type": "B14",
+        "label": "分站 0 ",
+        "categoryName": "分站",
+        "date": "2023-04-27 14:40:40",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3984293,
+          39.0172803,
+          1507.46
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120018F00",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120018F00",
+        "icon": "branchStation",
+        "mark_type": "B14",
+        "label": "分站 0 ",
+        "categoryName": "分站",
+        "date": "2023-04-27 14:40:40",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3989182,
+          39.0087960,
+          1304
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120019F00",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120019F00",
+        "icon": "branchStation",
+        "mark_type": "B14",
+        "label": "分站 0 ",
+        "categoryName": "分站",
+        "date": "2023-04-27 14:40:40",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3988147,
+          39.0031742,
+          1242.2
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120021F00",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120021F00",
+        "icon": "branchStation",
+        "mark_type": "B14",
+        "label": "分站 0 ",
+        "categoryName": "分站",
+        "date": "2023-04-27 14:40:40",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3993393,
+          39.0177953,
+          1485.77
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120022F00",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120022F00",
+        "icon": "branchStation",
+        "mark_type": "B14",
+        "label": "分站 0 ",
+        "categoryName": "分站",
+        "date": "2023-04-27 14:40:40",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3987444,
+          39.0005433,
+          1192.89
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120023F00",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120023F00",
+        "icon": "branchStation",
+        "mark_type": "B14",
+        "label": "分站 0 ",
+        "categoryName": "分站",
+        "date": "2023-04-27 14:40:40",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3895377,
+          39.0140935,
+          1456
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120024F00",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120024F00",
+        "icon": "branchStation",
+        "mark_type": "B14",
+        "label": "分站 0 ",
+        "categoryName": "分站",
+        "date": "2023-04-27 14:40:40",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3989933,
+          39.0107564,
+          1405.18
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120025F00",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120025F00",
+        "icon": "branchStation",
+        "mark_type": "B14",
+        "label": "分站 0 ",
+        "categoryName": "分站",
+        "date": "2023-04-27 14:40:40",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3991382,
+          39.0077395,
+          1362.49
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120028F00",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120028F00",
+        "icon": "branchStation",
+        "mark_type": "B14",
+        "label": "分站 0 ",
+        "categoryName": "分站",
+        "date": "2023-04-27 14:40:40",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3987358,
+          39.0080647,
+          1370.83
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120029F00",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120029F00",
+        "icon": "branchStation",
+        "mark_type": "B14",
+        "label": "分站 0 ",
+        "categoryName": "分站",
+        "date": "2023-04-27 14:40:40",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.4066682,
+          39.0028123,
+          1253
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120030F00",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120030F00",
+        "icon": "branchStation",
+        "mark_type": "B14",
+        "label": "分站 0 ",
+        "categoryName": "分站",
+        "date": "2023-04-27 14:40:40",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3995131,
+          39.0030780,
+          1296.9
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120031F00",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120031F00",
+        "icon": "branchStation",
+        "mark_type": "B14",
+        "label": "分站 0 ",
+        "categoryName": "分站",
+        "date": "2023-04-27 14:40:40",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3988050,
+          39.0024418,
+          1226.78
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120032F00",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120032F00",
+        "icon": "branchStation",
+        "mark_type": "B14",
+        "label": "分站 0 ",
+        "categoryName": "分站",
+        "date": "2023-04-27 14:40:40",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3988592,
+          39.0047777,
+          1258.44
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120033F00",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120033F00",
+        "icon": "branchStation",
+        "mark_type": "B14",
+        "label": "分站 0 ",
+        "categoryName": "分站",
+        "date": "2023-04-27 14:40:40",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3988780,
+          39.0187992,
+          1536
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120035F00",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120035F00",
+        "icon": "branchStation",
+        "mark_type": "B14",
+        "label": "分站 0 ",
+        "categoryName": "分站",
+        "date": "2023-04-27 14:40:40",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3995499,
+          39.0053210,
+          1336
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120036F00",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120036F00",
+        "icon": "branchStation",
+        "mark_type": "B14",
+        "label": "分站 0 ",
+        "categoryName": "分站",
+        "date": "2023-04-27 14:40:40",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3996692,
+          39.0074190,
+          1354.53
+        ]
+      }
+    },
+    {
+      "id": "SXNGMY0030120037F00",
+      "type": "Feature",
+      "properties": {
+        "id": "SXNGMY0030120037F00",
+        "icon": "branchStation",
+        "mark_type": "B14",
+        "label": "分站 0 ",
+        "categoryName": "分站",
+        "date": "2023-04-27 14:40:40",
+        "columns": [
+          {
+            "title": "类型: ",
+            "dataIndex": "categoryName"
+          },
+          {
+            "title": "值: ",
+            "dataIndex": "label"
+          },
+          {
+            "title": "时间: ",
+            "dataIndex": "date"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.3864425,
+          39.0146920,
+          1515
+        ]
+      }
+    }
+  ]
+}
