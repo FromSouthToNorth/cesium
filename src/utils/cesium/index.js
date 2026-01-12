@@ -15,8 +15,10 @@ import {
   defined,
   Cartographic,
   Math as CesiumMath,
-  ScreenSpaceEventType
+  ScreenSpaceEventType,
+  Model,
 } from 'cesium'
+
 import CesiumNavigation from 'cesium-navigation-es6';
 
 import { useCesiumStore } from '@/store/modules/cesiumStore';
@@ -25,16 +27,22 @@ import { useSetting } from '@/hooks/setting/useSetting'
 import { initPoint, initPolygon, initTunnel } from './geojson'
 import { initModel } from './model'
 import { initClippingPolygons } from './clipping'
+import { terrainGroundHole } from './cylinder'
+import { water } from './water'
+export { translateModel } from './model'
+export { createIconMarker } from './icon'
 
 const { setPageLoading } = useSetting()
 
 Ion.defaultAccessToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJiNGNkZmExNi1iNGFjLTRmMWQtYTk0YS1kZDA0YThjODg0YWEiLCJpZCI6MTIzMzI5LCJpYXQiOjE3NTI2NTYwMDV9.AGrRQMfnLy7_rqCkCqt0ESx3NX3ulhfOZLv-sDZB-vA';
 
 const viewerRef = ref(null);
+const terrainRef = ref(null);
 const activeEntityRef = ref(null);
 const cesiumStore = useCesiumStore();
 
 export const getActiveEntity = computed(() => unref(activeEntityRef));
+export const getTerrain = computed(() => unref(terrainRef));
 
 export function initializeCesium(refEl) {
   setPageLoading(true);
@@ -43,7 +51,7 @@ export function initializeCesium(refEl) {
     timeline: false,
     animation: false,
     shouldAnimate: true, // Enable animations
-    baseLayerPicker: false,
+    baseLayerPicker: false
   });
   const viewer = toRaw(unref(viewerRef))
   // setUrlTemplateImageryProvider(viewer)
@@ -52,29 +60,33 @@ export function initializeCesium(refEl) {
   const globe = scene.globe;
   globe.clippingPolygons = new ClippingPolygonCollection();
   globe.translucency.enabled = true
-  const terrain = Terrain.fromWorldTerrain();
-  scene.setTerrain(terrain);
+  scene.globe.depthTestAgainstTerrain = true;
+  terrainRef.value = Terrain.fromWorldTerrain();
+  scene.setTerrain(toRaw(unref(terrainRef)));
+
   cesiumStore.setViewer(viewerRef)
   const destination = Rectangle.fromDegrees(73, 18, 135, 53);
   Camera.DEFAULT_VIEW_RECTANGLE = destination;
-  initClippingPolygons(viewer.scene.globe);
+  initClippingPolygons();
   // flyToCine(viewer, destination, () => {
   // });
   onLeftClick(viewer);
+  onRightClick(viewer)
   initPoint()
   initPolygon()
   initTunnel()
   setPageLoading(false);
+  terrainGroundHole();
+  water();
   initModel([
-    112.384,
-    39.0157,
-    1556.63
+    116.5132,
+    35.48655,
+    0
   ], 'ModelTunnel');
   return viewer;
 }
 
 function onLeftClick(viewer) {
-  console.log('viewer: ', viewer);
   const scene = viewer.scene;
   const globe = scene.globe;
   viewer.screenSpaceEventHandler.setInputAction((event) => {
@@ -95,6 +107,27 @@ function onLeftClick(viewer) {
   }, ScreenSpaceEventType.LEFT_CLICK);
 }
 
+function onRightClick(viewer) {
+  const scene = viewer.scene;
+  const globe = scene.globe;
+  viewer.screenSpaceEventHandler.setInputAction((event) => {
+    const { position } = event;
+    const pickedObject = scene.pick(position);
+    if (!defined(pickedObject)) {
+      activeEntityRef.value = {}
+      return;
+    }
+    console.log('Picked object: ', pickedObject);
+    const { primitive } = pickedObject
+    if (primitive instanceof Model) {
+      activeEntityRef.value = { model: primitive, type: 'model' };
+    }
+    else {
+      activeEntityRef.value = {}
+    }
+  }, ScreenSpaceEventType.RIGHT_CLICK);
+}
+
 export function destroyCesium(app) {
   const viewer = toRaw(unref(viewerRef))
   console.log('viewer: ', viewer);
@@ -108,33 +141,7 @@ export function destroyCesium(app) {
   }
 
   try {
-    // 1. 停止所有渲染/事件循环（非常重要！）
-    viewer.isDestroyed() || viewer.scene.preUpdate.removeEventListener(() => { })
-    viewer.isDestroyed() || viewer.scene.postUpdate.removeEventListener(() => { })
-    viewer.isDestroyed() || viewer.scene.preRender.removeEventListener(() => { })
-    viewer.isDestroyed() || viewer.scene.postRender.removeEventListener(() => { })
-
-    // 2. 清空各种集合（带 destroy 选项）
-    viewer.entities && viewer.entities.removeAll()
-    viewer.dataSources && viewer.dataSources.removeAll({ destroy: true })
-    viewer.imageryLayers && viewer.imageryLayers.removeAll()
-    viewer.scene.primitives && viewer.scene.primitives.removeAll()
-
-    // 3. 特别处理 3D Tileset（最容易泄漏）
-    if (viewer.scene.primitives) {
-      const primitives = viewer.scene.primitives
-      for (let i = primitives.length - 1; i >= 0; i--) {
-        const p = primitives.get(i)
-        if (p instanceof Cesium3DTileset) {
-          p.isDestroyed() || p.destroy()
-        }
-      }
-    }
-
-    // 4. 销毁事件处理器（自定义的要特别注意）
-    // viewer.screenSpaceEventHandler?.destroy()
-
-    // 5. 核心销毁
+    // 1. 核心销毁
     viewer.isDestroyed() || viewer.destroy()
   } catch (e) {
     console.warn('Cesium destroy 过程出现异常:', e)

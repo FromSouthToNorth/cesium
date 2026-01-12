@@ -3,6 +3,14 @@ body, html, #app {
   height: 100%;
 }
 
+.ant-modal-wrap {
+  pointer-events: none !important;  /* 事件穿透 */
+}
+
+.ant-modal-content {
+  pointer-events: auto !important;  /* Modal 本身可点击 */
+}
+
 .ant-layout,
 .ant-layout-header,
 .ant-layout-sider,

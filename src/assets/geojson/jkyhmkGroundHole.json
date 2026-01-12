@@ -1,0 +1,734 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "3780",
+      "type": "Feature",
+      "properties": {
+        "id": "3780",
+        "name": "A2-3",
+        "label": "A2-3",
+        "depth": 733.30,
+        "columns": [
+          {
+            "title": "钻孔名称: ",
+            "dataIndex": "name"
+          },
+          {
+            "title": "终孔深度: ",
+            "dataIndex": "depth"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.4931890,
+          35.4823480
+        ]
+      }
+    },
+    {
+      "id": "3781",
+      "type": "Feature",
+      "properties": {
+        "id": "3781",
+        "name": "A2-2",
+        "label": "A2-2",
+        "depth": 613.10,
+        "columns": [
+          {
+            "title": "钻孔名称: ",
+            "dataIndex": "name"
+          },
+          {
+            "title": "终孔深度: ",
+            "dataIndex": "depth"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.4956210,
+          35.4863690
+        ]
+      }
+    },
+    {
+      "id": "3787",
+      "type": "Feature",
+      "properties": {
+        "id": "3787",
+        "name": "N0-1",
+        "label": "N0-1",
+        "depth": 745.56,
+        "columns": [
+          {
+            "title": "钻孔名称: ",
+            "dataIndex": "name"
+          },
+          {
+            "title": "终孔深度: ",
+            "dataIndex": "depth"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.5028640,
+          35.4867400
+        ]
+      }
+    },
+    {
+      "id": "3788",
+      "type": "Feature",
+      "properties": {
+        "id": "3788",
+        "name": "A4-1",
+        "label": "A4-1",
+        "depth": 760.43,
+        "columns": [
+          {
+            "title": "钻孔名称: ",
+            "dataIndex": "name"
+          },
+          {
+            "title": "终孔深度: ",
+            "dataIndex": "depth"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.5054310,
+          35.4903320
+        ]
+      }
+    },
+    {
+      "id": "3789",
+      "type": "Feature",
+      "properties": {
+        "id": "3789",
+        "name": "Y-2",
+        "label": "Y-2",
+        "depth": 581.45,
+        "columns": [
+          {
+            "title": "钻孔名称: ",
+            "dataIndex": "name"
+          },
+          {
+            "title": "终孔深度: ",
+            "dataIndex": "depth"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.5060100,
+          35.4910850
+        ]
+      }
+    },
+    {
+      "id": "3790",
+      "type": "Feature",
+      "properties": {
+        "id": "3790",
+        "name": "Y-4",
+        "label": "Y-4",
+        "depth": 391.53,
+        "columns": [
+          {
+            "title": "钻孔名称: ",
+            "dataIndex": "name"
+          },
+          {
+            "title": "终孔深度: ",
+            "dataIndex": "depth"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.5092910,
+          35.4974650
+        ]
+      }
+    },
+    {
+      "id": "3791",
+      "type": "Feature",
+      "properties": {
+        "id": "3791",
+        "name": "T5-6",
+        "label": "T5-6",
+        "depth": 1139.97,
+        "columns": [
+          {
+            "title": "钻孔名称: ",
+            "dataIndex": "name"
+          },
+          {
+            "title": "终孔深度: ",
+            "dataIndex": "depth"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.5021380,
+          35.4741970
+        ]
+      }
+    },
+    {
+      "id": "3792",
+      "type": "Feature",
+      "properties": {
+        "id": "3792",
+        "name": "A6-1",
+        "label": "A6-1",
+        "depth": 180.80,
+        "columns": [
+          {
+            "title": "钻孔名称: ",
+            "dataIndex": "name"
+          },
+          {
+            "title": "终孔深度: ",
+            "dataIndex": "depth"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.5078880,
+          35.4859050
+        ]
+      }
+    },
+    {
+      "id": "3793",
+      "type": "Feature",
+      "properties": {
+        "id": "3793",
+        "name": "T1-2",
+        "label": "T1-2",
+        "depth": 751.81,
+        "columns": [
+          {
+            "title": "钻孔名称: ",
+            "dataIndex": "name"
+          },
+          {
+            "title": "终孔深度: ",
+            "dataIndex": "depth"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.5111450,
+          35.4923370
+        ]
+      }
+    },
+    {
+      "id": "3805",
+      "type": "Feature",
+      "properties": {
+        "id": "3805",
+        "name": "A12-2",
+        "label": "A12-2",
+        "depth": 218.56,
+        "columns": [
+          {
+            "title": "钻孔名称: ",
+            "dataIndex": "name"
+          },
+          {
+            "title": "终孔深度: ",
+            "dataIndex": "depth"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.5203080,
+          35.4755800
+        ]
+      }
+    },
+    {
+      "id": "3806",
+      "type": "Feature",
+      "properties": {
+        "id": "3806",
+        "name": "A12-1",
+        "label": "A12-1",
+        "depth": 698.70,
+        "columns": [
+          {
+            "title": "钻孔名称: ",
+            "dataIndex": "name"
+          },
+          {
+            "title": "终孔深度: ",
+            "dataIndex": "depth"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.5256500,
+          35.4845500
+        ]
+      }
+    },
+    {
+      "id": "3782",
+      "type": "Feature",
+      "properties": {
+        "id": "3782",
+        "name": "A2-1",
+        "label": "A2-1",
+        "depth": 511.15,
+        "columns": [
+          {
+            "title": "钻孔名称: ",
+            "dataIndex": "name"
+          },
+          {
+            "title": "终孔深度: ",
+            "dataIndex": "depth"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.4976370,
+          35.4894380
+        ]
+      }
+    },
+    {
+      "id": "3783",
+      "type": "Feature",
+      "properties": {
+        "id": "3783",
+        "name": "N1-1",
+        "label": "N1-1",
+        "depth": 545.31,
+        "columns": [
+          {
+            "title": "钻孔名称: ",
+            "dataIndex": "name"
+          },
+          {
+            "title": "终孔深度: ",
+            "dataIndex": "depth"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.4998020,
+          35.4929100
+        ]
+      }
+    },
+    {
+      "id": "3784",
+      "type": "Feature",
+      "properties": {
+        "id": "3784",
+        "name": "Y-3",
+        "label": "Y-3",
+        "depth": 395.01,
+        "columns": [
+          {
+            "title": "钻孔名称: ",
+            "dataIndex": "name"
+          },
+          {
+            "title": "终孔深度: ",
+            "dataIndex": "depth"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.5032820,
+          35.4975820
+        ]
+      }
+    },
+    {
+      "id": "3785",
+      "type": "Feature",
+      "properties": {
+        "id": "3785",
+        "name": "T5-3",
+        "label": "T5-3",
+        "depth": 924.49,
+        "columns": [
+          {
+            "title": "钻孔名称: ",
+            "dataIndex": "name"
+          },
+          {
+            "title": "终孔深度: ",
+            "dataIndex": "depth"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.4979390,
+          35.4778710
+        ]
+      }
+    },
+    {
+      "id": "3786",
+      "type": "Feature",
+      "properties": {
+        "id": "3786",
+        "name": "A4-2",
+        "label": "A4-2",
+        "depth": 892.64,
+        "columns": [
+          {
+            "title": "钻孔名称: ",
+            "dataIndex": "name"
+          },
+          {
+            "title": "终孔深度: ",
+            "dataIndex": "depth"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.4984250,
+          35.4826410
+        ]
+      }
+    },
+    {
+      "id": "3794",
+      "type": "Feature",
+      "properties": {
+        "id": "3794",
+        "name": "T5-8",
+        "label": "T5-8",
+        "depth": 992.73,
+        "columns": [
+          {
+            "title": "钻孔名称: ",
+            "dataIndex": "name"
+          },
+          {
+            "title": "终孔深度: ",
+            "dataIndex": "depth"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.5051110,
+          35.4714420
+        ]
+      }
+    },
+    {
+      "id": "3795",
+      "type": "Feature",
+      "properties": {
+        "id": "3795",
+        "name": "A8-2",
+        "label": "A8-2",
+        "depth": 219.10,
+        "columns": [
+          {
+            "title": "钻孔名称: ",
+            "dataIndex": "name"
+          },
+          {
+            "title": "终孔深度: ",
+            "dataIndex": "depth"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.5097290,
+          35.4782360
+        ]
+      }
+    },
+    {
+      "id": "3796",
+      "type": "Feature",
+      "properties": {
+        "id": "3796",
+        "name": "A8-1",
+        "label": "A8-1",
+        "depth": 299.43,
+        "columns": [
+          {
+            "title": "钻孔名称: ",
+            "dataIndex": "name"
+          },
+          {
+            "title": "终孔深度: ",
+            "dataIndex": "depth"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.5148990,
+          35.4857140
+        ]
+      }
+    },
+    {
+      "id": "3797",
+      "type": "Feature",
+      "properties": {
+        "id": "3797",
+        "name": "T1-4",
+        "label": "T1-4",
+        "depth": 721.26,
+        "columns": [
+          {
+            "title": "钻孔名称: ",
+            "dataIndex": "name"
+          },
+          {
+            "title": "终孔深度: ",
+            "dataIndex": "depth"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.5147660,
+          35.4888190
+        ]
+      }
+    },
+    {
+      "id": "3798",
+      "type": "Feature",
+      "properties": {
+        "id": "3798",
+        "name": "Y-5",
+        "label": "Y-5",
+        "depth": 401.61,
+        "columns": [
+          {
+            "title": "钻孔名称: ",
+            "dataIndex": "name"
+          },
+          {
+            "title": "终孔深度: ",
+            "dataIndex": "depth"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.5174200,
+          35.4973820
+        ]
+      }
+    },
+    {
+      "id": "3799",
+      "type": "Feature",
+      "properties": {
+        "id": "3799",
+        "name": "N3-2",
+        "label": "N3-2",
+        "depth": 427.91,
+        "columns": [
+          {
+            "title": "钻孔名称: ",
+            "dataIndex": "name"
+          },
+          {
+            "title": "终孔深度: ",
+            "dataIndex": "depth"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.5197940,
+          35.5009620
+        ]
+      }
+    },
+    {
+      "id": "3800",
+      "type": "Feature",
+      "properties": {
+        "id": "3800",
+        "name": "A10-3",
+        "label": "A10-3",
+        "depth": 1077.00,
+        "columns": [
+          {
+            "title": "钻孔名称: ",
+            "dataIndex": "name"
+          },
+          {
+            "title": "终孔深度: ",
+            "dataIndex": "depth"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.5118580,
+          35.4697230
+        ]
+      }
+    },
+    {
+      "id": "3801",
+      "type": "Feature",
+      "properties": {
+        "id": "3801",
+        "name": "A10-2",
+        "label": "A10-2",
+        "depth": 217.21,
+        "columns": [
+          {
+            "title": "钻孔名称: ",
+            "dataIndex": "name"
+          },
+          {
+            "title": "终孔深度: ",
+            "dataIndex": "depth"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.5161990,
+          35.4769380
+        ]
+      }
+    },
+    {
+      "id": "3802",
+      "type": "Feature",
+      "properties": {
+        "id": "3802",
+        "name": "A10-1",
+        "label": "A10-1",
+        "depth": 912.35,
+        "columns": [
+          {
+            "title": "钻孔名称: ",
+            "dataIndex": "name"
+          },
+          {
+            "title": "终孔深度: ",
+            "dataIndex": "depth"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.5182150,
+          35.4811250
+        ]
+      }
+    },
+    {
+      "id": "3803",
+      "type": "Feature",
+      "properties": {
+        "id": "3803",
+        "name": "YS-4",
+        "label": "YS-4",
+        "depth": 438.70,
+        "columns": [
+          {
+            "title": "钻孔名称: ",
+            "dataIndex": "name"
+          },
+          {
+            "title": "终孔深度: ",
+            "dataIndex": "depth"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.5223680,
+          35.4920880
+        ]
+      }
+    },
+    {
+      "id": "3804",
+      "type": "Feature",
+      "properties": {
+        "id": "3804",
+        "name": "T3-2",
+        "label": "T3-2",
+        "depth": 1092.90,
+        "columns": [
+          {
+            "title": "钻孔名称: ",
+            "dataIndex": "name"
+          },
+          {
+            "title": "终孔深度: ",
+            "dataIndex": "depth"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.5171430,
+          35.4732690
+        ]
+      }
+    }
+  ]
+}
