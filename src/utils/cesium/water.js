@@ -3,7 +3,10 @@ import { unref, toRaw } from 'vue'
 import {
   Material,
   buildModuleUrl,
-  GeoJsonDataSource
+  GeoJsonDataSource,
+  Color as CesiumColor,
+  ImageMaterialProperty,
+  Cartesian2,
 } from 'cesium'
 
 import { useCesium } from '@/hooks/cesium/useCesium';
@@ -14,19 +17,6 @@ const viewer = () => {
   const { viewerRef } = useCesium();
   return toRaw(unref(viewerRef));
 }
-
-
-const waterMaterial = new Material({
-  fabric: {
-    type: 'Water',
-    uniforms: {
-      normalMap: buildModuleUrl('/src/assets/waterNormalsSmall.jpg'), // 或你自己的法线图
-      frequency: 1000.0,          // 波纹频率
-      animationSpeed: 0.01,       // 波动速度
-      amplitude: 5.0              // 波幅
-    }
-  }
-});
 
 function debugCoordinates(geojson) {
   geojson.features.forEach((f, idx) => {
@@ -41,12 +31,19 @@ function debugCoordinates(geojson) {
 }
 
 export function water() {
-  console.log('jkyhmkStagnant: ', jkyhmkStagnant);
-  const { features } = jkyhmkStagnant
-  GeoJsonDataSource.load('/src/assets/geojson/jkyhmkStagnant.json').then((e) => {
-    console.log('water: ', e);
+  GeoJsonDataSource.load('/src/assets/geojson/jkyhmkStagnant.json', {
+    stroke: CesiumColor.BLUE.withAlpha(0.2)
+  }).then((e) => {
     viewer().dataSources.add(e).then((dataSource) => {
       console.log('dataSource: ', dataSource);
+      dataSource.entities.values.forEach((entity) => {
+        entity.polygon.material = new ImageMaterialProperty({
+          image: buildModuleUrl('Assets/Textures/waterNormals.jpg'), // 或你自己的水纹循环图
+          transparent: true,
+          colorToAlpha: CesiumColor.WHITE,
+          repeat: new Cartesian2(10.0, 10.0) // 控制密度
+        });
+      })
     })
   })
 }
