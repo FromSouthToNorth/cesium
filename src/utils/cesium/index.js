@@ -112,8 +112,8 @@ function onRightClick(viewer) {
   const scene = viewer.scene;
   const globe = scene.globe;
   viewer.screenSpaceEventHandler.setInputAction((event) => {
-    const { position } = event;
-    const pickedObject = scene.pick(position);
+    const pickedObject = scene.pick(event.position);
+    const position = viewer.scene.pickPosition(event.position)
     if (!defined(pickedObject)) {
       activeEntityRef.value = {}
       return;
