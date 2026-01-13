@@ -3,7 +3,7 @@ import {
   union,
   featureCollection,
   polygon as Polygon,
-  truncate
+  centroid
 } from '@turf/turf'
 
 import { isArray } from './is';
@@ -65,4 +65,10 @@ export function densifyPolygon(polygon, pointsPerEdge = 5) {
   console.log(newCoords);
   return Polygon([newCoords[0]], polygon.properties); // 简化处理，实际根据类型返回
   // 如果是 MultiPolygon 则：turf.multiPolygon(newCoords, polygon.properties)
+}
+
+
+export function turfCentroid(geojson) {
+  const cent = centroid(geojson);
+  return cent.geometry.coordinates;
 }

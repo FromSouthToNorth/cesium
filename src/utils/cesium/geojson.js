@@ -58,6 +58,7 @@ export function initTunnel() {
         line.polyline.material = new PolylineGlowMaterialProperty({
           color: CesiumColor.fromCssColorString(line.properties.color.getValue()),
         });
+        line.polyline.width = 6;
       })
     })
     viewer().flyTo(e);

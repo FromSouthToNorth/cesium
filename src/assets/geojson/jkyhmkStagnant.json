@@ -11,7 +11,17 @@
         "area": 70379.00,
         "upper": -836.00,
         "lower": -899.00,
-        "water": -836.00
+        "water": -836.00,
+        "columns": [
+          {
+            "title": "积水量(m³): ",
+            "dataIndex": "volume"
+          },
+          {
+            "title": "积水面积(m²): ",
+            "dataIndex": "area"
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -111,7 +121,17 @@
         "area": 35886.00,
         "upper": -848.00,
         "lower": -892.00,
-        "water": -848.00
+        "water": -848.00,
+        "columns": [
+          {
+            "title": "积水量(m³): ",
+            "dataIndex": "volume"
+          },
+          {
+            "title": "积水面积(m²): ",
+            "dataIndex": "area"
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -186,7 +206,17 @@
         "area": 31892.00,
         "upper": -852.00,
         "lower": -896.00,
-        "water": -852.00
+        "water": -852.00,
+        "columns": [
+          {
+            "title": "积水量(m³): ",
+            "dataIndex": "volume"
+          },
+          {
+            "title": "积水面积(m²): ",
+            "dataIndex": "area"
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -241,7 +271,17 @@
         "area": 31834.00,
         "upper": -826.00,
         "lower": -875.00,
-        "water": -826.00
+        "water": -826.00,
+        "columns": [
+          {
+            "title": "积水量(m³): ",
+            "dataIndex": "volume"
+          },
+          {
+            "title": "积水面积(m²): ",
+            "dataIndex": "area"
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -336,7 +376,17 @@
         "area": 31691.00,
         "upper": -800.00,
         "lower": -849.00,
-        "water": -800.00
+        "water": -800.00,
+        "columns": [
+          {
+            "title": "积水量(m³): ",
+            "dataIndex": "volume"
+          },
+          {
+            "title": "积水面积(m²): ",
+            "dataIndex": "area"
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -396,7 +446,17 @@
         "area": 33835.00,
         "upper": -778.00,
         "lower": -823.00,
-        "water": -778.00
+        "water": -778.00,
+        "columns": [
+          {
+            "title": "积水量(m³): ",
+            "dataIndex": "volume"
+          },
+          {
+            "title": "积水面积(m²): ",
+            "dataIndex": "area"
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -441,7 +501,17 @@
         "area": 31438.00,
         "upper": -770.00,
         "lower": -795.00,
-        "water": -770.00
+        "water": -770.00,
+        "columns": [
+          {
+            "title": "积水量(m³): ",
+            "dataIndex": "volume"
+          },
+          {
+            "title": "积水面积(m²): ",
+            "dataIndex": "area"
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -511,7 +581,17 @@
         "area": 19711.00,
         "upper": -710.00,
         "lower": -755.00,
-        "water": -710.00
+        "water": -710.00,
+        "columns": [
+          {
+            "title": "积水量(m³): ",
+            "dataIndex": "volume"
+          },
+          {
+            "title": "积水面积(m²): ",
+            "dataIndex": "area"
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -561,7 +641,17 @@
         "area": 13534.00,
         "upper": -660.00,
         "lower": -680.00,
-        "water": -660.00
+        "water": -660.00,
+        "columns": [
+          {
+            "title": "积水量(m³): ",
+            "dataIndex": "volume"
+          },
+          {
+            "title": "积水面积(m²): ",
+            "dataIndex": "area"
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -711,7 +801,17 @@
         "area": 10016.00,
         "upper": -620.00,
         "lower": -645.00,
-        "water": -620.00
+        "water": -620.00,
+        "columns": [
+          {
+            "title": "积水量(m³): ",
+            "dataIndex": "volume"
+          },
+          {
+            "title": "积水面积(m²): ",
+            "dataIndex": "area"
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -761,7 +861,17 @@
         "area": 11148.00,
         "upper": -420.00,
         "lower": -450.00,
-        "water": -420.00
+        "water": -420.00,
+        "columns": [
+          {
+            "title": "积水量(m³): ",
+            "dataIndex": "volume"
+          },
+          {
+            "title": "积水面积(m²): ",
+            "dataIndex": "area"
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -896,7 +1006,17 @@
         "area": 4145.70,
         "upper": -367.00,
         "lower": -385.00,
-        "water": -367.00
+        "water": -367.00,
+        "columns": [
+          {
+            "title": "积水量(m³): ",
+            "dataIndex": "volume"
+          },
+          {
+            "title": "积水面积(m²): ",
+            "dataIndex": "area"
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -986,7 +1106,17 @@
         "area": 58218.00,
         "upper": -352.00,
         "lower": -393.00,
-        "water": -352.00
+        "water": -352.00,
+        "columns": [
+          {
+            "title": "积水量(m³): ",
+            "dataIndex": "volume"
+          },
+          {
+            "title": "积水面积(m²): ",
+            "dataIndex": "area"
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -1061,7 +1191,17 @@
         "area": 66004.00,
         "upper": -368.00,
         "lower": -432.00,
-        "water": -368.00
+        "water": -368.00,
+        "columns": [
+          {
+            "title": "积水量(m³): ",
+            "dataIndex": "volume"
+          },
+          {
+            "title": "积水面积(m²): ",
+            "dataIndex": "area"
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -1176,7 +1316,17 @@
         "area": 28246.00,
         "upper": -372.50,
         "lower": -399.00,
-        "water": -380.00
+        "water": -380.00,
+        "columns": [
+          {
+            "title": "积水量(m³): ",
+            "dataIndex": "volume"
+          },
+          {
+            "title": "积水面积(m²): ",
+            "dataIndex": "area"
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -1281,7 +1431,17 @@
         "area": 21001.00,
         "upper": -368.00,
         "lower": -390.00,
-        "water": -380.00
+        "water": -380.00,
+        "columns": [
+          {
+            "title": "积水量(m³): ",
+            "dataIndex": "volume"
+          },
+          {
+            "title": "积水面积(m²): ",
+            "dataIndex": "area"
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -1371,7 +1531,17 @@
         "area": 2407.90,
         "upper": -319.00,
         "lower": -324.00,
-        "water": -319.00
+        "water": -319.00,
+        "columns": [
+          {
+            "title": "积水量(m³): ",
+            "dataIndex": "volume"
+          },
+          {
+            "title": "积水面积(m²): ",
+            "dataIndex": "area"
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -1461,7 +1631,17 @@
         "area": 17734.00,
         "upper": -523.00,
         "lower": -530.00,
-        "water": -523.00
+        "water": -523.00,
+        "columns": [
+          {
+            "title": "积水量(m³): ",
+            "dataIndex": "volume"
+          },
+          {
+            "title": "积水面积(m²): ",
+            "dataIndex": "area"
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",

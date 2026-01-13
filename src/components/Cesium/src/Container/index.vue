@@ -25,20 +25,40 @@ function popupClose() {
   popupShow.value = false
 }
 
+function createPickedFeatureDescription(pickedFeature) {
+  const { columns } = pickedFeature;
+  if (!columns) {
+    return;
+  }
+  const _columns = columns.getValue ? columns.getValue() : columns;
+  const col = _columns.map(({ title, dataIndex }) => {
+    return `<tr><th>${title}</th><td>${pickedFeature[dataIndex]}</td></tr> `;
+  });
+  const description = `<table class="cesium-infoBox-defaultTable"> ${col.join('')}</table> `;
+  return description;
+}
+
 watch(() => unref(getActiveEntity), (newVal) => {
   popupShow.value = false;
   afterClose(false)
   console.log('getActiveEntity: ', newVal);
-  const { type, model } = toRaw(newVal);
+  const { type, obj } = toRaw(newVal);
+  position.value = newVal.position;
   if (type === 'cartographic') {
-    position.value = newVal.position;
     popup.value.title = '经纬度信息';
     popup.value.content = `经度: ${newVal.longitude}, 纬度: ${newVal.latitude}`;
     popupShow.value = true;
   }
+  else if (type === 'object') {
+    const properties = obj.properties;
+    if (!properties) return
+    popup.value.title = properties.name;
+    popup.value.content = createPickedFeatureDescription(properties);
+    popupShow.value = true;
+  }
   else if (type === 'model') {
-    popup.value.model = model
-    popup.value.type = 'modelSlider'
+    popup.value.model = obj;
+    popup.value.type = 'modelSlider';
     showModal.value = true;
   }
 });

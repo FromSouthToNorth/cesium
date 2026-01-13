@@ -95,11 +95,11 @@ function validateColor(color) {
  * @param {string} mineName - 矿山名称
  * @returns {Object} 标签配置对象
  */
-export function buildLabel(name) {
+export function buildLabel(name, size = 12, offset = [0, -48]) {
   return {
     text: name || DEFAULT_NAME,
-    font: '12px sans-serif',
-    pixelOffset: new Cartesian2(0, -48),
+    font: `bold ${size}px Microsoft YaHei, sans-serif`,
+    pixelOffset: new Cartesian2(offset[0], offset[1]),
     fillColor: CesiumColor.WHITE,
     outlineColor: CesiumColor.BLACK,
     outlineWidth: 6,

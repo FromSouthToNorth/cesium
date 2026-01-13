@@ -90,19 +90,20 @@ function onLeftClick(viewer) {
   const scene = viewer.scene;
   const globe = scene.globe;
   viewer.screenSpaceEventHandler.setInputAction((event) => {
-    const { position } = event;
-    const pickedObject = scene.pick(position);
+    const pickedObject = scene.pick(event.position);
+    const position = viewer.scene.pickPosition(event.position)
     if (defined(pickedObject)) {
-      console.log('Picked object: ', pickedObject);
-      activeEntityRef.value = { ...pickedObject, type: 'object' };
+      const obj = pickedObject.id || pickedObject.primitive;
+      activeEntityRef.value = { obj: obj, type: 'object', position };
     } else {
-      const cartesian = viewer.camera.pickEllipsoid(position, globe.ellipsoid);
-      if (cartesian) {
-        const cartographic = Cartographic.fromCartesian(cartesian);
-        const longitude = CesiumMath.toDegrees(cartographic.longitude);
-        const latitude = CesiumMath.toDegrees(cartographic.latitude);
-        activeEntityRef.value = { position: cartesian, longitude, latitude, type: 'cartographic' };
-      }
+      console.log('pickedObject: ', pickedObject);
+      // const cartesian = viewer.camera.pickEllipsoid(position, globe.ellipsoid);
+      // if (cartesian) {
+      //   const cartographic = Cartographic.fromCartesian(cartesian);
+      //   const longitude = CesiumMath.toDegrees(cartographic.longitude);
+      //   const latitude = CesiumMath.toDegrees(cartographic.latitude);
+      //   activeEntityRef.value = { position: cartesian, longitude, latitude, type: 'cartographic' };
+      // }
     }
   }, ScreenSpaceEventType.LEFT_CLICK);
 }
@@ -120,7 +121,7 @@ function onRightClick(viewer) {
     console.log('Picked object: ', pickedObject);
     const { primitive } = pickedObject
     if (primitive instanceof Model) {
-      activeEntityRef.value = { model: primitive, type: 'model' };
+      activeEntityRef.value = { obj: primitive, type: 'model' };
     }
     else {
       activeEntityRef.value = {}
