@@ -12,7 +12,7 @@ import { unref, toRaw } from 'vue';
 
 import { useCesium } from '@/hooks/cesium/useCesium';
 import { getTerrain } from './';
-import { turfConvex, turfPolygon, turfUnion, densifyPolygon } from '../turf';
+import { turfConcave, turfPolygon, turfUnion, densifyPolygon } from '../turf';
 import tunnelGeojson from '@/assets/geojson/jkyhmkTunnel.json'
 
 const CONSTANTS = {
@@ -111,7 +111,8 @@ const polygon = [
 ];
 
 function clipping() {
-  const tunnelPolygon = turfConvex(tunnelGeojson);
+  const tunnelPolygon = turfConcave(tunnelGeojson);
+  console.log('tunnelPolygon: ', tunnelPolygon);
   const mineBoundary = densifyPolygon(turfUnion(tunnelPolygon, turfPolygon(polygon)), 70).geometry.coordinates;
   console.log('mineBoundary: ', mineBoundary);
   const positions = mineBoundary[0].map(e => Cartesian3.fromDegrees(e[0], e[1]));

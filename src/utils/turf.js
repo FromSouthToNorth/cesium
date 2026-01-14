@@ -1,17 +1,28 @@
 import {
   convex,
+  concave,
+  explode,
   union,
   featureCollection,
   polygon as Polygon,
-  centroid
+  centroid,
 } from '@turf/turf'
 
 import { isArray } from './is';
 
+
+export function turfExplode(geojson) {
+  return explode(geojson);
+}
+
+export function turfConcave(geojson) {
+  const points = turfExplode(geojson);
+  return concave(points);
+}
+
 export function turfConvex(geojson) {
   return convex(geojson);
 }
-
 
 export function turfUnion(a, b) {
   return union(featureCollection([a, b]))
