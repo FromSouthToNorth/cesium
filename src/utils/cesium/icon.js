@@ -4,7 +4,9 @@ import {
   PinBuilder,
   Cartesian2,
   LabelStyle,
-  HeightReference
+  HeightReference,
+  NearFarScalar,
+  DistanceDisplayCondition
 } from 'cesium';
 
 const ICON_URL = '/src/assets/markerIcon/ICON.svg';
@@ -37,7 +39,7 @@ function getMarkerIcon(key) {
  * @param {Object} entity - 实体对象
  * @returns {Promise<void>}
  */
-export async function createIconMarker(entity) {
+export async function createIconMarker(entity, key) {
   try {
     // 验证实体对象
     if (!entity || !entity.properties) {
@@ -68,7 +70,7 @@ export async function createIconMarker(entity) {
         const result = await pinBuilder.fromUrl(iconURL, validColor, DEFAULT_ICON_SIZE);
         entity.billboard.image = result.toDataURL();
       }
-      entity.label = buildLabel(_label || DEFAULT_NAME);
+      entity.label = buildLabel(_label || DEFAULT_NAME, key);
     } catch (error) {
       console.error('Failed to create icon from URL:', error);
     }
@@ -95,14 +97,38 @@ function validateColor(color) {
  * @param {string} mineName - 矿山名称
  * @returns {Object} 标签配置对象
  */
-export function buildLabel(name, size = 12, offset = [0, -48]) {
-  return {
+export function buildLabel(name, key) {
+  // 参数验证
+  if (typeof name !== 'string' && name != null) {
+    throw new TypeError('name must be a string or null/undefined');
+  }
+  if (typeof key !== 'string') {
+    throw new TypeError('key must be a string');
+  }
+
+  // 基础配置
+  const baseConfig = {
     text: name || DEFAULT_NAME,
-    font: `bold ${size}px Microsoft YaHei, sans-serif`,
-    pixelOffset: new Cartesian2(offset[0], offset[1]),
+    font: 'bold 12px Microsoft YaHei, sans-serif',
+    pixelOffset: new Cartesian2(0, -48),
     fillColor: CesiumColor.WHITE,
     outlineColor: CesiumColor.BLACK,
     outlineWidth: 6,
-    style: LabelStyle.FILL_AND_OUTLINE,
+    // 以下三行让文字永远在最前面 + 带黑底，超级清晰
+    style: LabelStyle.FILL_AND_OUTLINE
   };
+
+  if (key !== 'minePoint') {
+    // 非MinePoint类型的额外配置
+    return {
+      ...baseConfig,
+      font: '12px sans-serif',
+      scaleByDistance: new NearFarScalar(1200, 1.2, 6000, 0.3), // 近处放大 1.2x，远处缩小到 0.3x
+      translucencyByDistance: new NearFarScalar(2000, 1.0, 8000, 0.0), // 2000m 内全不透，8000m 完全透明
+      distanceDisplayCondition: new DistanceDisplayCondition(0, 10000)
+    };
+  }
+
+  // MinePoint类型的配置（无额外配置）
+  return baseConfig;
 }

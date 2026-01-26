@@ -17,6 +17,7 @@ import {
   Math as CesiumMath,
   ScreenSpaceEventType,
   Model,
+  Cartesian3,
 } from 'cesium'
 
 import CesiumNavigation from 'cesium-navigation-es6';
@@ -150,4 +151,33 @@ export function destroyCesium(app) {
     viewerRef.value = null
     console.log('Cesium Viewer destroyed')
   }
+}
+
+/**
+ * 计算折线的几何中心点
+ * @param {Array} positions - 折线顶点数组，每个元素为Cartesian3类型的坐标点
+ * @param {number} [heightOffset=2] - 高度偏移量，默认为2米，用于将中心点抬高到地面以上
+ * @returns {Cartesian3|undefined} 返回折线的几何中心点坐标，如果输入无效则返回undefined
+ */
+export function getPolylineGeometricCenter(positions, heightOffset = 2) {
+  if (!positions || positions.length === 0) return undefined;
+
+  const sum = new Cartesian3(0, 0, 0);
+  let count = 0;
+
+  for (const pos of positions) {
+    Cartesian3.add(sum, pos, sum);
+    count++;
+  }
+
+  const center = Cartesian3.divideByScalar(sum, count, new Cartesian3());
+
+  // 抬高（最常见做法）
+  if (heightOffset !== 0) {
+    const carto = Cartographic.fromCartesian(center);
+    carto.height += heightOffset;
+    return Cartographic.toCartesian(carto);
+  }
+
+  return center;
 }

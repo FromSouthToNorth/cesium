@@ -105,17 +105,18 @@ export function water() {
         position: p,
         label: {
           text: name,
-          font: 'bold 12px Microsoft YaHei, sans-serif', // 中文友好字体
+          font: '12px sans-serif', // 中文友好字体
           fillColor: CesiumColor.WHITE,
           outlineColor: CesiumColor.BLACK,
           outlineWidth: 2,
           style: LabelStyle.FILL_AND_OUTLINE,
           horizontalOrigin: HorizontalOrigin.CENTER,
-          verticalOrigin: VerticalOrigin.BOTTOM, // 文字底部对齐中心点
+          verticalOrigin: VerticalOrigin.CENTER, // 文字底部对齐中心点
           pixelOffset: new Cartesian2(0, -10),   // 屏幕像素微调
-          eyeOffset: new Cartesian3(0, 0, -500), // 负 z 方向（向“镜头”方向）抬高 500 米
-          scaleByDistance: new NearFarScalar(1000, 1.2, 500000, 0.6), // 远近缩放
-          distanceDisplayCondition: new DistanceDisplayCondition(0, 500000) // 可见范围
+          eyeOffset: new Cartesian3(0, 0, -60), // 负 z 方向（向“镜头”方向）抬高 60 米
+          scaleByDistance: new NearFarScalar(1200, 1.2, 6000, 0.8), // 远近缩放
+          translucencyByDistance: new NearFarScalar(2000, 1.0, 8000, 0.6),
+          distanceDisplayCondition: new DistanceDisplayCondition(0, 10000), // 可见范围
         }
       });
       label.properties = e.properties.getValue();
