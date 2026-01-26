@@ -92,9 +92,9 @@ function onLeftClick(viewer) {
   const globe = scene.globe;
   viewer.screenSpaceEventHandler.setInputAction((event) => {
     const pickedObject = scene.pick(event.position);
-    const position = viewer.scene.pickPosition(event.position)
     if (defined(pickedObject)) {
       const obj = pickedObject.id || pickedObject.primitive;
+      const position = obj.position ? obj.position.getValue() : scene.pickPosition(event.position);
       activeEntityRef.value = { obj: obj, type: 'object', position };
     } else {
       console.log('pickedObject: ', pickedObject);
